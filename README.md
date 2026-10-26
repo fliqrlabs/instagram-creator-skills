@@ -49,7 +49,12 @@ A viral reel with no funnel gets you views and ₹0. A funnel with no reach gets
 /plugin install fliqr@fliqrlabs
 ```
 
-**claude.ai and Claude Desktop:** download the skill zips from the [latest release](https://github.com/fliqrlabs/instagram-creator-skills/releases/latest) (one per skill, each self-contained), then go to Settings → Capabilities → Skills → Upload. Start with `creator-brain`, `viral-engine` and `comment-to-dm`.
+**claude.ai and Claude Desktop** (paid plans):
+1. Download the zips from the [latest release](https://github.com/fliqrlabs/instagram-creator-skills/releases/latest). There's one per skill, each self-contained, and `fliqr-skills-all.zip` holds all of them.
+2. In Claude: **Customize → Skills → + → Create skill → Upload a skill**, and upload one skill zip at a time. Start with `instagram-playbook`, `creator-brain`, `viral-engine` and `comment-to-dm`.
+3. To update, upload the new version's zip.
+
+**Teams and agencies on Claude Team or Enterprise:** an org Owner can sync skills for everyone from GitHub (**Organization settings → Plugins & skills → Add → Sync from GitHub**). Claude syncs private repos only, and the Claude GitHub App must be installed on your GitHub org, so **fork this repo into a private repo in your org** and sync that. Claude re-syncs on every push to the fork, so press GitHub's **Sync fork** button to pull in new versions of this pack.
 
 **Any agent** (Claude Code, Codex, Cursor, Hermes and more)
 ```bash

@@ -9,6 +9,7 @@
 4. every capability a skill relies on is listed in skills/instagram-playbook/connectors.md
 5. the bundled tools run on the fixtures and give the expected verdicts
 """
+import json
 import os
 import re
 import subprocess
@@ -73,6 +74,18 @@ for name in names:
     if "../../" in text:
         err(f"{name}: points outside the skills folder (../../). Installers copy skills/ only, so use ../instagram-playbook/")
     print(f"  ok   {name}  ({len(desc)} char description)")
+
+print("claude.ai descriptions")
+short = json.load(open(os.path.join(ROOT, "scripts", "claude-ai-descriptions.json"), encoding="utf-8"))
+short = {k: v for k, v in short.items() if not k.startswith("_")}
+for name in names:
+    if name not in short:
+        err(f"{name}: no entry in scripts/claude-ai-descriptions.json (claude.ai needs a description of 200 characters or fewer)")
+    elif not (20 <= len(short[name]) <= 200):
+        err(f"{name}: claude.ai description is {len(short[name])} chars (max 200)")
+for extra in set(short) - set(names):
+    err(f"claude-ai-descriptions.json has '{extra}', which is not a skill")
+print(f"  ok   {len(short)} short descriptions, longest {max(map(len, short.values()))} chars")
 
 print("connector")
 import json as _json

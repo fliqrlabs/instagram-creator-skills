@@ -20,6 +20,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DIST = os.path.join(ROOT, "dist")
 SKILLS = os.path.join(ROOT, "skills")
 PLAYBOOK = os.path.join(SKILLS, "instagram-playbook")
+SHORT = json.load(open(os.path.join(ROOT, "scripts", "claude-ai-descriptions.json"), encoding="utf-8"))
 POLISH = os.path.join(SKILLS, "polish", "scripts")
 SKIP = {".git", "dist", "__pycache__", "tests"}
 
@@ -41,6 +42,10 @@ def self_contained(name, out):
         shutil.copytree(PLAYBOOK, os.path.join(dst, "references"), ignore=shutil.ignore_patterns("SKILL.md"))
     md = os.path.join(dst, "SKILL.md")
     text = open(md, encoding="utf-8").read()
+    # claude.ai accepts only these frontmatter keys and a description of 200 characters or fewer,
+    # so zips get a clean frontmatter with the short description; SKILL.md in the repo keeps the long one.
+    short = SHORT[name].replace("\\", "\\\\").replace('"', '\\"')
+    text = re.sub(r"\A---\n.*?\n---\n", f'---\nname: {name}\ndescription: "{short}"\nlicense: MIT\n---\n', text, count=1, flags=re.S)
     text = text.replace("../instagram-playbook/", "references/")
     # tools borrowed from sibling skills are copied into this skill's scripts/
     for sibling, files in (("polish", ("polish.py", "rules.json")), ("growth-audit", ("outliers.py",))):
@@ -53,7 +58,7 @@ def self_contained(name, out):
     if "../" in text:
         left = sorted(set(re.findall(r"\.\./[\w./-]+", text)))
         raise SystemExit(f"{name}: SKILL.md still points outside the skill folder: {left}")
-    open(md, "w", encoding="utf-8").write(text)
+    open(md, "w", encoding="utf-8", newline="\n").write(text)
     return dst
 
 
