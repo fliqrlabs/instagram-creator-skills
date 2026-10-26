@@ -14,7 +14,7 @@ argument-hint: "[what you're launching] [price] [launch date] [cart close date]"
 
 Launches fail in two ways: nobody knew it was coming, or everyone knew and nothing made them act. This skill builds the three phases that fix both, and it wires each one to a keyword, so interest becomes a list of people who raised their hand.
 
-Read: the creator profile, `../../references/algorithm.md`, `../../references/safety.md`, `../../references/connectors.md`.
+Read: the creator profile, `../instagram-playbook/algorithm.md`, `../instagram-playbook/safety.md`, `../instagram-playbook/connectors.md`.
 
 ## Inputs (one batch)
 

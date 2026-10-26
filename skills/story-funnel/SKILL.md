@@ -13,7 +13,7 @@ argument-hint: "[what you want stories to do today: warm up / sell / launch / co
 
 Feed posts find strangers. Stories turn followers into buyers. A story reply is already a DM, so the shortest path from attention to a conversation on Instagram is: story → reply with a keyword → an automated DM delivers.
 
-Read: the creator profile, `../../references/safety.md`, and `../../references/connectors.md` if connected.
+Read: the creator profile, `../instagram-playbook/safety.md`, and `../instagram-playbook/connectors.md` if connected.
 
 ## The sequence (3-7 frames)
 
@@ -52,7 +52,7 @@ Same gate as always: show the config, get a yes, create paused, then ask whether
 
 ## Output
 
-A frame-by-frame table (frame, visual, text overlay ≤ 10 words, sticker), then the automation config if one is used, then the polish check. Keep overlays inside the stories safe zone in `../../references/algorithm.md`.
+A frame-by-frame table (frame, visual, text overlay ≤ 10 words, sticker), then the automation config if one is used, then the polish check. Keep overlays inside the stories safe zone in `../instagram-playbook/algorithm.md`.
 
 ## Rules
 

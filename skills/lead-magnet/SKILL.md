@@ -14,7 +14,7 @@ argument-hint: "[topic] [who it's for] [the paid offer it should lead to]"
 
 A keyword CTA is only as strong as what it promises. "Comment GUIDE for my guide" gets shrugs. "Comment PRICE for the sheet that told me I was losing ₹300 a cake" gets hundreds. This skill designs the promise and then writes the thing itself, so the funnel has something worth sending.
 
-Read: the creator profile (offer, audience, proof), `../../references/safety.md`.
+Read: the creator profile (offer, audience, proof), `../instagram-playbook/safety.md`.
 
 ## 1. Pick the format
 

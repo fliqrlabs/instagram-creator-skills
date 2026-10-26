@@ -13,7 +13,7 @@ argument-hint: "[products or category] [affiliate programmes you're in]"
 
 "Link in bio" for a product loses most buyers along the way. A keyword DM puts the clickable link in their inbox the moment they want it: "Comment LINKS and I'll send you everything in this video".
 
-Read: the creator profile, `../../references/safety.md` (disclosure), `../../references/connectors.md`.
+Read: the creator profile, `../instagram-playbook/safety.md` (disclosure), `../instagram-playbook/connectors.md`.
 
 ## 1. Only recommend what the creator uses
 
@@ -35,7 +35,7 @@ Run the hook through `viral-hooks`. Price is a strong hook, but **check the prog
 
 - **Check whether the programme allows links in DMs.** Some don't. Amazon Associates restricts its special links in emails and private messages. For those programmes, DM a link to a page the creator owns (a link-in-bio page, a blog post or a storefront page) that holds the affiliate links. Most brand programmes and creator storefronts allow direct links. Read the terms, and when unsure, use the owned page.
 - **Keyword per post:** LINKS, DESK, LOOK, or the product name.
-- **DM type:** `BUTTON` for one product (button = "Shop the light"), `GENERIC` cards for several (one card per product: title, image, button). Cards are the cleanest "shop my look". See the payload variations in `../../references/connectors.md`.
+- **DM type:** `BUTTON` for one product (button = "Shop the light"), `GENERIC` cards for several (one card per product: title, image, button). Cards are the cleanest "shop my look". See the payload variations in `../instagram-playbook/connectors.md`.
 - **Codes:** put the discount code in the card's subtitle or the message text, so it can be copied.
 - **Disclosure inside the DM too:** "(affiliate links: I earn a small commission at no cost to you)".
 - Build and approve it via `comment-to-dm` (create paused, activate on a yes).

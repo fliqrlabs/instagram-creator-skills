@@ -13,7 +13,7 @@ argument-hint: "[@handle, or paste 3 of your best captions/transcripts]"
 
 Most AI content sounds like AI because it was never told whose voice to use. This skill fixes that once. It writes `creator-profile.md`, and every other skill reads it before writing anything.
 
-Template: `../../references/creator-profile-template.md`. Rules: `../../references/safety.md`.
+Template: `../instagram-playbook/creator-profile-template.md`. Rules: `../instagram-playbook/safety.md`.
 
 ## Where the profile lives
 

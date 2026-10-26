@@ -13,7 +13,7 @@ argument-hint: "[niche] [city/region if local] [@handle optional]"
 
 Instagram search now leans on words, not just hashtags: the name field, bio, caption and on-screen text. Creators *report* that what's said out loud (through auto-captions) helps too, though Instagram hasn't confirmed it. A post that uses the words people search for can keep getting found for months.
 
-Read: the creator profile, `../../references/algorithm.md`, `../../references/connectors.md`.
+Read: the creator profile, `../instagram-playbook/algorithm.md`, `../instagram-playbook/connectors.md`.
 
 ## 1. Keyword research (no tool needed)
 

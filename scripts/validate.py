@@ -4,9 +4,9 @@
     python3 scripts/validate.py
 
 1. every skills/*/SKILL.md has frontmatter with name == folder and a description <= 1024 chars
-2. every relative path a skill mentions (../../references/x.md, scripts/x.py, ../polish/...) exists
+2. every relative path a skill mentions (../instagram-playbook/x.md, scripts/x.py, ../polish/...) exists
 3. no secrets or tokens are committed
-4. every capability a skill relies on is listed in references/connectors.md
+4. every capability a skill relies on is listed in skills/instagram-playbook/connectors.md
 5. the bundled tools run on the fixtures and give the expected verdicts
 """
 import os
@@ -43,7 +43,7 @@ def frontmatter(text):
 
 print("skills")
 names = sorted(d for d in os.listdir(SKILLS) if os.path.isdir(os.path.join(SKILLS, d)))
-connectors = open(os.path.join(ROOT, "references", "connectors.md"), encoding="utf-8").read()
+connectors = open(os.path.join(ROOT, "skills", "instagram-playbook", "connectors.md"), encoding="utf-8").read()
 tool_names = set(re.findall(r"`([a-z_]+)`", connectors))
 
 for name in names:
@@ -62,14 +62,16 @@ for name in names:
     if not (50 <= len(desc) <= 1024):
         err(f"{name}: description is {len(desc)} chars (want 50-1024)")
     if len(text.splitlines()) > 500:
-        err(f"{name}: SKILL.md over 500 lines, move detail to references/")
+        err(f"{name}: SKILL.md over 500 lines, move detail to the playbook")
     base = os.path.join(SKILLS, name)
     for rel in set(re.findall(r"(\.\./[\w./-]+\.(?:md|py|json)|scripts/[\w.-]+\.(?:py|json))", text)):
         if not os.path.exists(os.path.normpath(os.path.join(base, rel))):
             err(f"{name}: references missing file {rel}")
     for tool in set(re.findall(r"`((?:list|get|create|update|set|delete|restore)_[a-z_]+)`", text)):
         if tool not in tool_names:
-            err(f"{name}: uses tool `{tool}` not listed in references/connectors.md")
+            err(f"{name}: uses tool `{tool}` not listed in skills/instagram-playbook/connectors.md")
+    if "../../" in text:
+        err(f"{name}: points outside the skills folder (../../). Installers copy skills/ only, so use ../instagram-playbook/")
     print(f"  ok   {name}  ({len(desc)} char description)")
 
 print("connector")

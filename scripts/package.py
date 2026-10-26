@@ -19,7 +19,7 @@ import zipfile
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DIST = os.path.join(ROOT, "dist")
 SKILLS = os.path.join(ROOT, "skills")
-REFS = os.path.join(ROOT, "references")
+PLAYBOOK = os.path.join(SKILLS, "instagram-playbook")
 POLISH = os.path.join(SKILLS, "polish", "scripts")
 SKIP = {".git", "dist", "__pycache__", "tests"}
 
@@ -37,10 +37,11 @@ def self_contained(name, out):
     """Copy a skill into out/name with references/ and the polish tool inside it."""
     dst = os.path.join(out, name)
     shutil.copytree(os.path.join(SKILLS, name), dst, ignore=shutil.ignore_patterns("__pycache__"))
-    shutil.copytree(REFS, os.path.join(dst, "references"))
+    if name != "instagram-playbook":
+        shutil.copytree(PLAYBOOK, os.path.join(dst, "references"), ignore=shutil.ignore_patterns("SKILL.md"))
     md = os.path.join(dst, "SKILL.md")
     text = open(md, encoding="utf-8").read()
-    text = text.replace("../../references/", "references/")
+    text = text.replace("../instagram-playbook/", "references/")
     # tools borrowed from sibling skills are copied into this skill's scripts/
     for sibling, files in (("polish", ("polish.py", "rules.json")), ("growth-audit", ("outliers.py",))):
         ref = f"../{sibling}/scripts/"

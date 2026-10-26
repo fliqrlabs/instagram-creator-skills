@@ -14,7 +14,7 @@ argument-hint: "[@client account or 'all accounts'] [7d / 30d / custom dates] [a
 
 Clients don't care about reach curves. They care whether Instagram is producing results. This skill turns the numbers into a one-page story: what happened, why, what it got them, and what happens next. Every number has a source.
 
-Read: `../../references/algorithm.md` (metric definitions), `../../references/connectors.md`, `../../references/safety.md`.
+Read: `../instagram-playbook/algorithm.md` (metric definitions), `../instagram-playbook/connectors.md`, `../instagram-playbook/safety.md`.
 
 ## 1. Collect (per account)
 

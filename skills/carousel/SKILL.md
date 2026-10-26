@@ -12,7 +12,7 @@ argument-hint: "[topic, notes, or a thread/blog to convert] [number of slides]"
 
 Carousels are the save-machine of Instagram. Slide 1 decides whether anyone swipes. The last slide decides whether they save, comment or follow.
 
-Read: the creator profile, `../../references/hooks.md`, `../../references/algorithm.md`, `../../references/safety.md`.
+Read: the creator profile, `../instagram-playbook/hooks.md`, `../instagram-playbook/algorithm.md`, `../instagram-playbook/safety.md`.
 
 ## Architecture (6-10 slides)
 

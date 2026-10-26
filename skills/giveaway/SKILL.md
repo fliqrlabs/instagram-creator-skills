@@ -13,7 +13,7 @@ argument-hint: "[prize] [solo or with a brand/creator] [goal: followers / leads 
 
 Most giveaways bring in prize hunters who unfollow the day the winner is announced, and the account's engagement rate drops for months. This skill designs one that attracts the creator's actual audience and keeps them.
 
-Read: the creator profile, `../../references/safety.md`, `../../references/connectors.md`.
+Read: the creator profile, `../instagram-playbook/safety.md`, `../instagram-playbook/connectors.md`.
 
 ## 1. The prize decides who shows up
 
@@ -33,7 +33,7 @@ Think twice about "tag 3 friends". Instagram's promotion guidelines forbid encou
 
 Every entrant gets a DM confirming the entry: "You're in! 🎉 Winner announced {date} on my stories. Rules: {link}". End it with an easy question ("What would you use it for first?"). If they reply, that's a real conversation the creator can continue. Instagram only lets businesses message within 24 hours of the person's last message, so plan no follow-up outside that window. Never put entrants on a message sequence.
 
-Build it with `comment-to-dm`, using the full payload in `../../references/connectors.md`: the keyword trigger, public reply variations ("You're in! 🍀"), a reply limit for big posts, and a delivery DM with the rules link. A follow gate is natural here, since following is an entry step. Same gate as always: approve, create paused, activate.
+Build it with `comment-to-dm`, using the full payload in `../instagram-playbook/connectors.md`: the keyword trigger, public reply variations ("You're in! 🍀"), a reply limit for big posts, and a delivery DM with the rules link. A follow gate is natural here, since following is an entry step. Same gate as always: approve, create paused, activate.
 
 ## 4. Official rules (required)
 

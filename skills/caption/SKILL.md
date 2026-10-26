@@ -13,7 +13,7 @@ argument-hint: "[what the post is about, or the reel script] [CTA keyword if any
 
 Instagram shows about 125 characters before "... more", and most people never tap. A caption that fails, fails there. This skill writes for that window first.
 
-Read: the creator profile, `../../references/algorithm.md`, `../../references/safety.md`. Commands use `python3`. On Windows, use `python`.
+Read: the creator profile, `../instagram-playbook/algorithm.md`, `../instagram-playbook/safety.md`. Commands use `python3`. On Windows, use `python`.
 
 ## Structure
 

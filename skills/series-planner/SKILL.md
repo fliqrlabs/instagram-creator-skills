@@ -13,7 +13,7 @@ argument-hint: "[niche/pillar] [how often you can post it]"
 
 A one-off post asks for a like. A series asks for a follow, because missing part 4 feels like a loss. Series also make content easier to produce: the structure is decided once and only the topic changes.
 
-Read: the creator profile, `../../references/hooks.md`, `../../references/algorithm.md`.
+Read: the creator profile, `../instagram-playbook/hooks.md`, `../instagram-playbook/algorithm.md`.
 
 ## 1. Pick the format
 

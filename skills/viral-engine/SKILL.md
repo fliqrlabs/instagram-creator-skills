@@ -25,7 +25,7 @@ Viral reach with no funnel gives you views and ₹0. A funnel with no reach give
 ## 0. Load context
 
 - Look for the creator profile. If there isn't one, run `creator-brain` first. With the Fliqr AI connector it takes about 2 minutes. Without it, ask for 3 captions and the 5 interview questions.
-- Check for the Fliqr AI connector (`../../references/connectors.md`) and say which mode you're in: "Connected to @handle" or "Offline mode: paste data when I ask".
+- Check for the Fliqr AI connector (`../instagram-playbook/connectors.md`) and say which mode you're in: "Connected to @handle" or "Offline mode: paste data when I ask".
 
 ## 1. FIND (skip if the creator brought an idea)
 

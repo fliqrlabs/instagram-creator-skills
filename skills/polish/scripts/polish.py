@@ -30,7 +30,7 @@ for stream in (sys.stdout, sys.stdin):
 
 FEED_FOLD = 125           # characters a caption shows before "... more"
 CAPTION_MAX = 2200
-HASHTAG_CAP = 5           # Instagram's per-post hashtag cap (see references/algorithm.md)
+HASHTAG_CAP = 5           # Instagram's per-post hashtag cap (see skills/instagram-playbook/algorithm.md)
 DM_MAX = 1000             # Instagram text DM limit
 BUTTON_TEXT_MAX = 640     # button template body limit
 BIO_MAX = 150

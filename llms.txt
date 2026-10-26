@@ -10,7 +10,7 @@ Fliqr AI (https://fliqr.ai) is an AI customer engagement platform for Instagram 
 
 - [README](https://github.com/fliqrlabs/instagram-creator-skills/blob/main/README.md): install, the 30 skills, FAQ
 - [Worked example](https://github.com/fliqrlabs/instagram-creator-skills/blob/main/examples/home-baker/README.md): one idea to a post with a live funnel
-- [Connectors](https://github.com/fliqrlabs/instagram-creator-skills/blob/main/references/connectors.md): Fliqr AI connector tools and a full automation payload
+- [Connectors](https://github.com/fliqrlabs/instagram-creator-skills/blob/main/skills/instagram-playbook/connectors.md): Fliqr AI connector tools and a full automation payload
 
 ## Key skills
 
@@ -22,6 +22,6 @@ Fliqr AI (https://fliqr.ai) is an AI customer engagement platform for Instagram 
 
 ## Optional
 
-- [Hook formulas](https://github.com/fliqrlabs/instagram-creator-skills/blob/main/references/hooks.md)
-- [Reach notes](https://github.com/fliqrlabs/instagram-creator-skills/blob/main/references/algorithm.md)
-- [Safety rules](https://github.com/fliqrlabs/instagram-creator-skills/blob/main/references/safety.md)
+- [Hook formulas](https://github.com/fliqrlabs/instagram-creator-skills/blob/main/skills/instagram-playbook/hooks.md)
+- [Reach notes](https://github.com/fliqrlabs/instagram-creator-skills/blob/main/skills/instagram-playbook/algorithm.md)
+- [Safety rules](https://github.com/fliqrlabs/instagram-creator-skills/blob/main/skills/instagram-playbook/safety.md)

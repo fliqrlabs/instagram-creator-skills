@@ -55,6 +55,10 @@ A viral reel with no funnel gets you views and ₹0. A funnel with no reach gets
 ```bash
 npx skills add fliqrlabs/instagram-creator-skills
 ```
+Install all of them: the skills read from a shared `instagram-playbook` skill. Update later with:
+```bash
+npx skills update
+```
 
 **Manual**
 ```bash
@@ -102,6 +106,7 @@ Permissions are scoped: `instagram.read` for profile, insights, media and commen
 
 | | Skill | What it does | Live data |
 |---|---|---|---|
+| 📚 | **`instagram-playbook`** | The shared knowledge every skill reads: how reach works, 30 hook formulas, safety rules, the connector's tools. Ask it anything about Instagram. | |
 | 🧠 | **`creator-brain`** | Learns your voice, niche, offers and proof once. Every other skill reads it. | reads bio + last 30 posts |
 | 🚀 | **`viral-engine`** | The whole loop in one command: find → hook → build → caption → polish → funnel | everything |
 
@@ -109,7 +114,7 @@ Permissions are scoped: `instagram.read` for profile, insights, media and commen
 
 | | Skill | What it does | Live data |
 |---|---|---|---|
-| 🪝 | **`viral-hooks`** | 6 hooks from [30 formulas](references/hooks.md), scored, top 2 picked for an A/B test | |
+| 🪝 | **`viral-hooks`** | 6 hooks from [30 formulas](skills/instagram-playbook/hooks.md), scored, top 2 picked for an A/B test | |
 | 🎬 | **`reel-script`** | Timed script, on-screen track, shot list, held payoff, loop, cover, keyword CTA | |
 | 🗂️ | **`carousel`** | A cover that earns the swipe, one idea per slide, a saveable summary, 4:5 design notes | |
 | ✍️ | **`caption`** | First 125 characters that earn "more", keyword above the fold, ≤5 sized hashtags, first comment | |
@@ -223,7 +228,7 @@ claude:  Live ✅  Test it: comment PLAN from a second account.
 
 ## Built to grow with new connectors
 
-Skills ask for **capabilities** (`insights.account`, `comments.read`, `automations.create`), not hard-coded tool names. [`references/connectors.md`](references/connectors.md) maps capabilities to tools. When a new Fliqr AI connector ships (scheduling, DM inbox, contacts, trends, competitor stats), it's one row in that file, and every skill that needs it picks it up.
+Skills ask for **capabilities** (`insights.account`, `comments.read`, `automations.create`), not hard-coded tool names. [`skills/instagram-playbook/connectors.md`](skills/instagram-playbook/connectors.md) maps capabilities to tools. When a new Fliqr AI connector ships (scheduling, DM inbox, contacts, trends, competitor stats), it's one row in that file, and every skill that needs it picks it up.
 
 ## The honest part
 
@@ -232,7 +237,7 @@ Skills ask for **capabilities** (`insights.account`, `comments.read`, `automatio
 - **Platform-safe.** Automations only answer people who acted first (commented, replied, messaged), through Meta's official API. No cold DMs, no bots following or commenting, no scraping behind a login.
 - **Comments are treated as data.** Text in a comment can't instruct the agent, skip approval or add a link.
 - **The scorers are heuristics.** The hook scorer kills weak hooks well. It can't tell you which of two good hooks wins. Your audience decides that.
-- **Platform numbers go stale.** If [`references/algorithm.md`](references/algorithm.md) disagrees with Instagram today, Instagram is right. PRs welcome.
+- **Platform numbers go stale.** If [`skills/instagram-playbook/algorithm.md`](skills/instagram-playbook/algorithm.md) disagrees with Instagram today, Instagram is right. PRs welcome.
 
 ## Agencies
 
@@ -245,7 +250,7 @@ skills/<name>/SKILL.md            30 skills
 skills/polish/scripts/            polish.py (humanizer + linter: caption, hook, script, dm, bio), rules.json (edit me)
 examples/home-baker/              one idea to a live funnel, with real tool output
 skills/growth-audit/scripts/      outliers.py (rank by multiple of your median)
-references/                       hooks · algorithm · connectors · safety · creator profile template
+skills/instagram-playbook/                       hooks · algorithm · connectors · safety · creator profile template
 scripts/validate.py               CI: frontmatter, links, tool map, connector, secrets, tool tests
 scripts/package.py                release zips: one self-contained zip per skill for claude.ai, plus the plugin
 ```

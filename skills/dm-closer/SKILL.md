@@ -16,7 +16,7 @@ The keyword DM opens the door. This skill writes what happens next, so a "PLAN" 
 
 Commands use `python3`. On Windows, use `python`.
 
-Read: the creator profile (offer, price, voice), `../../references/safety.md`.
+Read: the creator profile (offer, price, voice), `../instagram-playbook/safety.md`.
 
 ## Inputs (ask once, batched)
 

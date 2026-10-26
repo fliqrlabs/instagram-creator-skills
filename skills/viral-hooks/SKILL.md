@@ -13,7 +13,7 @@ argument-hint: "[topic or idea] [goal: send / save / comment / follow / lead]"
 
 The frame-1 visual has about 1.5 seconds to stop the thumb, and the spoken hook has to land inside 3. This skill writes hooks that do both. It also kills the weak ones before the creator wastes a take on them.
 
-Read `../../references/hooks.md` (the 30 formulas), `../../references/safety.md`, and the creator profile if it exists. If the profile's "What's worked before" lists winning formulas, start there. The creator's own data beats the defaults.
+Read `../instagram-playbook/hooks.md` (the 30 formulas), `../instagram-playbook/safety.md`, and the creator profile if it exists. If the profile's "What's worked before" lists winning formulas, start there. The creator's own data beats the defaults.
 
 ## Process
 

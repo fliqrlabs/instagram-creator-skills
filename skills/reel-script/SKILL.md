@@ -13,7 +13,7 @@ argument-hint: "[the idea, story or result] [length: 15/30/45s]"
 
 A Reel is decided in 2 seconds, kept by the next 5, and finished only if the payoff is held to the end. This skill writes all three, then connects the reel to a funnel so the views turn into DMs.
 
-Read: the creator profile, `../../references/hooks.md`, `../../references/algorithm.md`, `../../references/safety.md`. Commands use `python3`. On Windows, use `python`.
+Read: the creator profile, `../instagram-playbook/hooks.md`, `../instagram-playbook/algorithm.md`, `../instagram-playbook/safety.md`. Commands use `python3`. On Windows, use `python`.
 
 ## 1. Before writing
 

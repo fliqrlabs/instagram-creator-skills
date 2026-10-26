@@ -13,7 +13,7 @@ argument-hint: "[@handle or paste/screenshot your profile]"
 
 The profile is the checkout page of Instagram. A reel earns the visit. The profile decides in about 3 seconds whether that visit becomes a follow, a DM or nothing.
 
-Read: `../../references/connectors.md`, `../../references/safety.md`, and the creator profile.
+Read: `../instagram-playbook/connectors.md`, `../instagram-playbook/safety.md`, and the creator profile.
 
 Connected: `get_profile` (bio, website, counts), then `list_media` with `limit: 12` for the grid and pinned posts. Offline: ask for a screenshot of the profile.
 

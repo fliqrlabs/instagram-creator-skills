@@ -13,7 +13,7 @@ argument-hint: "[what people get when they share] [the post or idea]"
 
 Comment keywords work in public. Share-to-DM works in private: the viewer forwards the post into the creator's DMs and an automated reply delivers what was promised. It suits content people would rather not comment on publicly (money, health, relationships, "I need this but don't want my friends to see").
 
-Read: the creator profile, `../../references/safety.md`, `../../references/connectors.md`.
+Read: the creator profile, `../instagram-playbook/safety.md`, `../instagram-playbook/connectors.md`.
 
 **Connector note:** share-to-DM triggers aren't in the Fliqr AI connector's automation types yet (it supports POST, STORY and LIVE). This skill writes everything, then gives a setup checklist for the dashboard's Share to DM section. When a connector capability for it appears in `connectors.md`, use it instead. Share to DM is often a higher-plan feature.
 
@@ -25,7 +25,7 @@ Read: the creator profile, `../../references/safety.md`, `../../references/conne
 | the audience is shy (B2B, finance, health) | the audience is chatty |
 | a story or reel the viewer is already forwarding | a post built for discussion |
 
-Don't promise it does more for reach than it does. Instagram hasn't said whether a share to the creator counts like a share to a friend. Treat it as a lead mechanic. Sends to friends still come from content worth sending (see `../../references/algorithm.md`).
+Don't promise it does more for reach than it does. Instagram hasn't said whether a share to the creator counts like a share to a friend. Treat it as a lead mechanic. Sends to friends still come from content worth sending (see `../instagram-playbook/algorithm.md`).
 
 ## 2. The CTA
 

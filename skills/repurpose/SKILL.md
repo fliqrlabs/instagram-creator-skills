@@ -13,7 +13,7 @@ argument-hint: "[transcript, link + transcript, or the article text] [platforms]
 
 One good hour of talking holds 10 reels. Most creators post one clip and move on. This skill finds every standalone moment, and rewrites rather than resizes each one for where it's going.
 
-Read: the creator profile, `../../references/hooks.md`, `../../references/algorithm.md`.
+Read: the creator profile, `../instagram-playbook/hooks.md`, `../instagram-playbook/algorithm.md`.
 
 ## 1. Input
 

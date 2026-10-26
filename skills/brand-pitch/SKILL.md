@@ -15,7 +15,7 @@ Brands buy outcomes, not follower counts. This skill pitches with real numbers a
 
 Commands use `python3`. On Windows, use `python`.
 
-Read: the creator profile, `../../references/safety.md`, `../../references/connectors.md`.
+Read: the creator profile, `../instagram-playbook/safety.md`, `../instagram-playbook/connectors.md`.
 
 ## 1. The media kit (real numbers only)
 

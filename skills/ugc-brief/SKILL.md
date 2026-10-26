@@ -14,7 +14,7 @@ argument-hint: "[product + audience + campaign goal] [number of creators, delive
 
 Bad briefs produce 20 identical "OMG I love this" videos. Good briefs give creators a clear truth and room to say it their own way. That's what makes UGC convert. This skill writes the good kind, and adds a way to measure it beyond views.
 
-Read: `../../references/hooks.md`, `../../references/safety.md` (disclosure, claims).
+Read: `../instagram-playbook/hooks.md`, `../instagram-playbook/safety.md` (disclosure, claims).
 
 ## The brief (one page per creator type)
 

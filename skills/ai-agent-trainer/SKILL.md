@@ -14,7 +14,7 @@ argument-hint: "[what you sell] [paste FAQs, website text, or past DM answers]"
 
 An AI reply that sounds like a call centre, or that invents a discount, does more damage than no reply. This skill builds what the AI needs to answer like the creator would: the facts, the voice, the limits, and when to hand over to a human.
 
-Read: the creator profile, `../../references/safety.md`, `../../references/connectors.md`.
+Read: the creator profile, `../instagram-playbook/safety.md`, `../instagram-playbook/connectors.md`.
 
 ## 1. Collect the facts (the knowledge base)
 
@@ -36,7 +36,7 @@ From the profile: language mix (match theirs: if they write in Hinglish, reply i
 
 ## 3. The prompts
 
-Write two prompts. Keep each under **4,000 characters**, the limit for AI prompts on automations (see `../../references/connectors.md`). Count them, and cut facts the prompt doesn't need for that post.
+Write two prompts. Keep each under **4,000 characters**, the limit for AI prompts on automations (see `../instagram-playbook/connectors.md`). Count them, and cut facts the prompt doesn't need for that post.
 
 **Public comment reply** (`public_reply.type: "AI"`, `ai_config.prompt`): replies under the post. Short, warm, no links. If the comment is a question about the offer, answer in a line and invite the keyword. Never reply to hate, spam or anything sensitive.
 

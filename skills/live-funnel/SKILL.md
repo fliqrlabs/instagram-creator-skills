@@ -13,7 +13,7 @@ argument-hint: "[topic of the live] [date/time] [what you want people to get or 
 
 During a Live, comments fly past faster than anyone can reply. Dozens of people type "link?" and get nothing. A LIVE automation answers every one of them in DMs while the creator keeps talking.
 
-Read: the creator profile, `../../references/connectors.md`, `../../references/safety.md`.
+Read: the creator profile, `../instagram-playbook/connectors.md`, `../instagram-playbook/safety.md`.
 
 ## 1. Before the Live (3-5 days)
 
@@ -40,7 +40,7 @@ Say each keyword out loud **and** pin a comment with it. New viewers arrive thro
 
 ## 3. The LIVE automation (connected mode)
 
-`create_automation` with `media_type: "LIVE"`, the keyword(s) in `trigger_config`, a `dm_message` that delivers (BUTTON with link), and a short `opening_message` if you want the tap. Use the full payload in `../../references/connectors.md` as the base.
+`create_automation` with `media_type: "LIVE"`, the keyword(s) in `trigger_config`, a `dm_message` that delivers (BUTTON with link), and a short `opening_message` if you want the tap. Use the full payload in `../instagram-playbook/connectors.md` as the base.
 
 The Live doesn't exist until the creator goes live, so there's no `media_id` to attach to. Try `is_next: true` with `media_type: "LIVE"`. `is_next` is documented for "the next new post", so read the result back with `get_automation` and confirm it's set to the next Live. If the Fliqr AI connector rejects it, or it doesn't look right, set it up in the dashboard's Live section before going live. Live automations are often plan-gated. Say so if the gate hits.
 

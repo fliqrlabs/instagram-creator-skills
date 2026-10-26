@@ -13,7 +13,7 @@ argument-hint: "[week / month] [goal: growth / leads / launch] [posts per week]"
 
 Consistency beats volume, and a plan beats both. This skill plans posts that each do one job, and wires the lead posts to funnels before they go out.
 
-Read: the creator profile (pillars, offer, what's worked), `../../references/hooks.md`, `../../references/algorithm.md`.
+Read: the creator profile (pillars, offer, what's worked), `../instagram-playbook/hooks.md`, `../instagram-playbook/algorithm.md`.
 
 ## Inputs
 
@@ -56,7 +56,7 @@ Sun  Reel      Personal    SEND   POV (#16)                                     
 FUNNELS TO SET UP: 2 (DM, GUIDE). Run comment-to-dm when each post is ready.
 ```
 
-Then offer: script the big swing now (`reel-script`), write the carousel (`carousel`), or set up the funnels (`comment-to-dm`, needs the posts live or `is_next`). With a scheduling connector (`posts.schedule` in `../../references/connectors.md`), offer to queue the finished posts. Without one, give a copy-ready list.
+Then offer: script the big swing now (`reel-script`), write the carousel (`carousel`), or set up the funnels (`comment-to-dm`, needs the posts live or `is_next`). With a scheduling connector (`posts.schedule` in `../instagram-playbook/connectors.md`), offer to queue the finished posts. Without one, give a copy-ready list.
 
 <!-- brand:footer -->
 ---

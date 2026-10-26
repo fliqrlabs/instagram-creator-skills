@@ -19,7 +19,7 @@ Commands use `python3`. On Windows, use `python`.
 
 It writes the whole funnel. With the Fliqr AI connector attached, it can also set it up live. The automation is always created **paused** and switched on only when the creator says so.
 
-Read first: `../../references/connectors.md`, `../../references/safety.md`. Also read the creator profile (`creator-profile.md` in the working folder or `~/.fliqr/creator-profile.md`) if it exists. Its lead-magnet table and voice notes come first.
+Read first: `../instagram-playbook/connectors.md`, `../instagram-playbook/safety.md`. Also read the creator profile (`creator-profile.md` in the working folder or `~/.fliqr/creator-profile.md`) if it exists. Its lead-magnet table and voice notes come first.
 
 ## 1. Get the four facts
 
@@ -44,7 +44,7 @@ When a post's job is reach (not one specific asset), consider `ALL_COMMENTS` wit
 
 Write each block in the creator's voice. Keep follower-facing text **tool-neutral**: never name the automation tool.
 
-In the Fliqr AI connector, every block below defaults to **off** (`is_active: false`). A block you want must be sent with `is_active: true`, or the funnel goes live and sends nothing. The full payload is in `../../references/connectors.md` under "A complete create_automation payload". Build from it.
+In the Fliqr AI connector, every block below defaults to **off** (`is_active: false`). A block you want must be sent with `is_active: true`, or the funnel goes live and sends nothing. The full payload is in `../instagram-playbook/connectors.md` under "A complete create_automation payload". Build from it.
 
 ### a) Public reply: 5-8 rotating variations
 

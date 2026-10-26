@@ -14,7 +14,7 @@ argument-hint: "[period: 7d / 30d / 90d] [@account]"
 
 Every rule in every Instagram guide, this pack included, is a starting assumption. A creator's own last 30 posts are the evidence. This skill reads that evidence and turns it into three decisions.
 
-Read: `../../references/algorithm.md` (the metrics) and `../../references/connectors.md`.
+Read: `../instagram-playbook/algorithm.md` (the metrics) and `../instagram-playbook/connectors.md`.
 
 ## Collect
 
@@ -36,7 +36,7 @@ It ranks every post by its multiple of the account's median views (falling back 
 
 **Retention graphs** (if the creator shares screenshots): read where the curve drops. A cliff in the first 3s means the hook failed. A slow slide in the middle means the beats are too long or nothing changes on screen. A bump near the end means people rewatched the payoff, so the loop worked. Name the second where each drop happens and the line of script it matches.
 
-Then compare the top 5 with the bottom 5 on: format (reel / carousel / image), hook formula (classify it with `../../references/hooks.md`), length, topic or pillar, keyword CTA (yes/no), posting day and time. Check day and time **last**, and only if nothing else explains the difference.
+Then compare the top 5 with the bottom 5 on: format (reel / carousel / image), hook formula (classify it with `../instagram-playbook/hooks.md`), length, topic or pillar, keyword CTA (yes/no), posting day and time. Check day and time **last**, and only if nothing else explains the difference.
 
 ## Funnel check (connected)
 
