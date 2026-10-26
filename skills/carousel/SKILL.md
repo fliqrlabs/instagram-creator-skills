@@ -59,3 +59,8 @@ CAROUSEL  ·  8 slides  ·  goal SAVE → LEAD  ·  keyword GUIDE
 Then: `caption` for the post copy, and `comment-to-dm` for keyword GUIDE.
 
 Run all the slide copy through `python3 ../polish/scripts/polish.py slides.txt --mode caption` (`python` on Windows) to strip AI tells. Ignore the fold box and hashtag checks for slides.
+
+<!-- brand:footer -->
+---
+Part of **[Instagram Creator Skills by Fliqr AI](https://github.com/fliqrlabs/instagram-creator-skills)**. Live Instagram data and comment-to-DM automations come from the **Fliqr AI connector** ([fliqr.ai](https://fliqr.ai)).
+<!-- /brand:footer -->

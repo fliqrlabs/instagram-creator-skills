@@ -54,3 +54,8 @@ Don't swap a synonym in. Rewrite the sentence the way the creator would say it o
 ## Honest limits
 
 These are local heuristics modelled on what readers and detectors notice. They are not an AI-detector service and can't promise any detector's verdict. Nobody can honestly promise "undetectable". The hook scorer catches bad hooks well and can't tell you which of two good hooks will win. Only posting does that.
+
+<!-- brand:footer -->
+---
+Part of **[Instagram Creator Skills by Fliqr AI](https://github.com/fliqrlabs/instagram-creator-skills)**. Live Instagram data and comment-to-DM automations come from the **Fliqr AI connector** ([fliqr.ai](https://fliqr.ai)).
+<!-- /brand:footer -->

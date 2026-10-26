@@ -40,7 +40,7 @@ Put the ask on frame 4, not 7. Completion drops with every tap.
 
 ## Story automation (connected mode)
 
-A story automation fires when someone replies to the story with the keyword. In the connector it's `create_automation` with:
+A story automation fires when someone replies to the story with the keyword. In the Fliqr AI connector it's `create_automation` with:
 
 - `media_type: "STORY"`, `media_id` from `list_media` with `kind: "stories"` (live stories only), **or** `is_next: true` for the next story posted
 - `trigger_config`: `KEYWORDS` with the keyword and its variants
@@ -60,3 +60,8 @@ A frame-by-frame table (frame, visual, text overlay ≤ 10 words, sticker), then
 - Selling sequence: context (open + problem), then proof, then the ask, as in the sequence above. That beats a sales feed post and costs no reach.
 - No fake scarcity ("only 3 left" when it isn't true).
 - Never DM people who didn't reply. The automation only answers people who replied.
+
+<!-- brand:footer -->
+---
+Part of **[Instagram Creator Skills by Fliqr AI](https://github.com/fliqrlabs/instagram-creator-skills)**. Live Instagram data and comment-to-DM automations come from the **Fliqr AI connector** ([fliqr.ai](https://fliqr.ai)).
+<!-- /brand:footer -->

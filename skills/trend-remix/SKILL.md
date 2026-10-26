@@ -48,3 +48,8 @@ AUDIO         original voice / trending sound / music bed
 ## Output
 
 The breakdown, the 3 mapped ideas, the full remix script (via `reel-script`'s format), and a one-line note on what was kept (structure) and what was changed (everything else).
+
+<!-- brand:footer -->
+---
+Part of **[Instagram Creator Skills by Fliqr AI](https://github.com/fliqrlabs/instagram-creator-skills)**. Live Instagram data and comment-to-DM automations come from the **Fliqr AI connector** ([fliqr.ai](https://fliqr.ai)).
+<!-- /brand:footer -->

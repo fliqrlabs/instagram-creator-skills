@@ -57,3 +57,8 @@ TEST:  #1 vs #2. Same body, a week apart. Judge on 3-second hold, not views.
 ## Next
 
 `reel-script` (build the reel on the winning hook) or `carousel` (if it's a slide post).
+
+<!-- brand:footer -->
+---
+Part of **[Instagram Creator Skills by Fliqr AI](https://github.com/fliqrlabs/instagram-creator-skills)**. Live Instagram data and comment-to-DM automations come from the **Fliqr AI connector** ([fliqr.ai](https://fliqr.ai)).
+<!-- /brand:footer -->

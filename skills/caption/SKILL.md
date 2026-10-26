@@ -56,3 +56,8 @@ Give 2 caption options (different first lines), the first comment, and the lint 
 ```
 Next: set up the funnel → comment-to-dm keyword "PLAN" (only if it isn't live yet)
 ```
+
+<!-- brand:footer -->
+---
+Part of **[Instagram Creator Skills by Fliqr AI](https://github.com/fliqrlabs/instagram-creator-skills)**. Live Instagram data and comment-to-DM automations come from the **Fliqr AI connector** ([fliqr.ai](https://fliqr.ai)).
+<!-- /brand:footer -->

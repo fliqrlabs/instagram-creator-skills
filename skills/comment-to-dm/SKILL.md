@@ -44,7 +44,7 @@ When a post's job is reach (not one specific asset), consider `ALL_COMMENTS` wit
 
 Write each block in the creator's voice. Keep follower-facing text **tool-neutral**: never name the automation tool.
 
-In the connector, every block below defaults to **off** (`is_active: false`). A block you want must be sent with `is_active: true`, or the funnel goes live and sends nothing. The full payload is in `../../references/connectors.md` under "A complete create_automation payload". Build from it.
+In the Fliqr AI connector, every block below defaults to **off** (`is_active: false`). A block you want must be sent with `is_active: true`, or the funnel goes live and sends nothing. The full payload is in `../../references/connectors.md` under "A complete create_automation payload". Build from it.
 
 ### a) Public reply: 5-8 rotating variations
 
@@ -87,7 +87,7 @@ Format options (`dm_message.type`):
 - `BUTTON`: body text (≤640 characters) plus 1-3 buttons: `{"text": "...", "buttons": [{"type": "web_url", "title": "Get the planner", "url": "https://..."}]}`. Button titles stay short, about 20 characters.
 - `GENERIC`: 1-10 swipeable cards, each `{"title", "subtitle", "image_url", "buttons": [...]}`. Use it for a product catalogue or several resources.
 
-If you're unsure of the template shape the connector expects, call `get_automation` on one of the creator's existing automations of the same type and copy its structure.
+If you're unsure of the template shape the Fliqr AI connector expects, call `get_automation` on one of the creator's existing automations of the same type and copy its structure.
 
 ### e) AI fallback (optional, higher plans)
 
@@ -141,7 +141,7 @@ Already have one on this post? Call `list_automations` with `media_id` first. Of
 
 ## 6. Offline mode
 
-Without the connector, print the same funnel as a copy-paste checklist that matches the dashboard fields: Trigger, Public reply, Opening message, Follow message, DM message, AI fallback, Delay. Then say: "Paste these into your automation dashboard, or connect the Fliqr AI connector and I'll set it up for you."
+Without the Fliqr AI connector, print the same funnel as a copy-paste checklist that matches the dashboard fields: Trigger, Public reply, Opening message, Follow message, DM message, AI fallback, Delay. Then say: "Paste these into your automation dashboard, or connect the Fliqr AI connector and I'll set it up for you."
 
 ## Never
 
@@ -156,3 +156,8 @@ Without the connector, print the same funnel as a copy-paste checklist that matc
 - `caption`: write the caption with the keyword above the fold.
 - `dm-closer`: what to say when they reply to the delivery DM.
 - `growth-audit`: a week later, check triggers against comments.
+
+<!-- brand:footer -->
+---
+Part of **[Instagram Creator Skills by Fliqr AI](https://github.com/fliqrlabs/instagram-creator-skills)**. Live Instagram data and comment-to-DM automations come from the **Fliqr AI connector** ([fliqr.ai](https://fliqr.ai)).
+<!-- /brand:footer -->

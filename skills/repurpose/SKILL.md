@@ -55,3 +55,8 @@ For each: the timestamp range, its goal (SEND / SAVE / COMMENT / LEAD), a hook f
 ## Output
 
 A table of moments (timestamp, goal, formula, new hook, format, platform), then the full copy for the top 3 (reel script or on-screen text, caption, and the platform versions). Lint the Instagram captions with `python3 ../polish/scripts/polish.py caption.txt` (`python` on Windows). LEAD pieces go to `comment-to-dm`.
+
+<!-- brand:footer -->
+---
+Part of **[Instagram Creator Skills by Fliqr AI](https://github.com/fliqrlabs/instagram-creator-skills)**. Live Instagram data and comment-to-DM automations come from the **Fliqr AI connector** ([fliqr.ai](https://fliqr.ai)).
+<!-- /brand:footer -->

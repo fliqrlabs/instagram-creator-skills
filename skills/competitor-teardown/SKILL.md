@@ -5,7 +5,7 @@ description: >-
   their own median, the hook formulas and formats that win for them, their funnel and offer, their
   positioning, and the gaps the creator can own, ending in a plan to compete without copying. Use when
   the creator says "analyse @x", "competitor analysis", "why is @x growing", "what is @x doing right",
-  "spy on", "benchmark me against", or "find gaps in my niche".
+  "spy on", "benchmark me against", or "find gaps in my niche". Works offline, or with the Fliqr AI connector for live Instagram data.
 argument-hint: "[@competitor] [paste their last 15-30 posts: caption first line + views/likes]"
 ---
 
@@ -58,3 +58,8 @@ PLAN            3 posts on their unanswered questions, with funnels → content-
 ```
 
 Never copy their captions, scripts, hooks word for word, or visual identity. Take the structure only (see `trend-remix`). Don't write anything disparaging about them by name.
+
+<!-- brand:footer -->
+---
+Part of **[Instagram Creator Skills by Fliqr AI](https://github.com/fliqrlabs/instagram-creator-skills)**. Live Instagram data and comment-to-DM automations come from the **Fliqr AI connector** ([fliqr.ai](https://fliqr.ai)).
+<!-- /brand:footer -->

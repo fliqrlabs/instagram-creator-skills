@@ -5,7 +5,7 @@ description: >-
   that delivers something when they do. Covers the post concept that earns the share, the "send this to
   me" CTA, the auto-reply copy, and the dashboard setup checklist. Use when the creator says "share to
   DM", "get people to share my post", "send this reel to me", "forward to DM campaign", or wants a
-  campaign beyond comment keywords.
+  campaign beyond comment keywords. Works offline, or with the Fliqr AI connector for live Instagram data.
 argument-hint: "[what people get when they share] [the post or idea]"
 ---
 
@@ -15,7 +15,7 @@ Comment keywords work in public. Share-to-DM works in private: the viewer forwar
 
 Read: the creator profile, `../../references/safety.md`, `../../references/connectors.md`.
 
-**Connector note:** share-to-DM triggers aren't in the connector's automation types yet (it supports POST, STORY and LIVE). This skill writes everything, then gives a setup checklist for the dashboard's Share to DM section. When a connector capability for it appears in `connectors.md`, use it instead. Share to DM is often a higher-plan feature.
+**Connector note:** share-to-DM triggers aren't in the Fliqr AI connector's automation types yet (it supports POST, STORY and LIVE). This skill writes everything, then gives a setup checklist for the dashboard's Share to DM section. When a connector capability for it appears in `connectors.md`, use it instead. Share to DM is often a higher-plan feature.
 
 ## 1. When to use it instead of a keyword
 
@@ -52,3 +52,8 @@ Same rules as a keyword delivery (see `comment-to-dm`, section 3d): deliver firs
 ## Output
 
 The concept and CTA lines (spoken, on-screen, caption), the reply copy (linted with `python3 ../polish/scripts/polish.py dm.txt --mode dm`, or `python` on Windows), and the checklist above, filled in.
+
+<!-- brand:footer -->
+---
+Part of **[Instagram Creator Skills by Fliqr AI](https://github.com/fliqrlabs/instagram-creator-skills)**. Live Instagram data and comment-to-DM automations come from the **Fliqr AI connector** ([fliqr.ai](https://fliqr.ai)).
+<!-- /brand:footer -->

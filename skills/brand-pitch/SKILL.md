@@ -5,7 +5,7 @@ description: >-
   short personalised pitch DM or email to a brand, a collab pitch to another creator, rate guidance by
   deliverable, and the deliverables brief once a deal lands, including a comment-to-DM funnel the brand
   can track. Use when the creator says "pitch a brand", "media kit", "rate card", "how much should I
-  charge", "collab with @x", "brand reached out", "UGC pitch", or "sponsorship".
+  charge", "collab with @x", "brand reached out", "UGC pitch", or "sponsorship". Works offline, or with the Fliqr AI connector for live Instagram data.
 argument-hint: "[brand or creator name + what you'd make for them]"
 ---
 
@@ -25,7 +25,7 @@ One page:
 - Who the creator is, in one line, plus their niche and audience in one line (top cities and age band if available)
 - Followers, 90-day reach, median reel views, average sends and saves per reach
 - 3 best posts with their numbers (outlier multiple)
-- Funnel proof: keyword automations and their `total_triggers` ("one reel → 1,240 keyword triggers, each one a viewer asking for the offer by name"). Say "triggers", never "DMs delivered" or "clicks". The connector doesn't track delivery or clicks yet, and overstating numbers to a brand is a fast way to lose the deal.
+- Funnel proof: keyword automations and their `total_triggers` ("one reel → 1,240 keyword triggers, each one a viewer asking for the offer by name"). Say "triggers", never "DMs delivered" or "clicks". The Fliqr AI connector doesn't track delivery or clicks yet, and overstating numbers to a brand is a fast way to lose the deal.
 - Past brands (only real ones), and contact
 
 Every number names its period. Never round up generously or invent a figure. If the numbers are small, sell the niche fit and the engagement depth instead.
@@ -54,3 +54,8 @@ Concept, script (via `reel-script`), on-screen disclosure (#ad or the Paid partn
 ## Never
 
 Fake past collaborations, inflated numbers, bought-follower accounts presented as organic, or undisclosed paid content.
+
+<!-- brand:footer -->
+---
+Part of **[Instagram Creator Skills by Fliqr AI](https://github.com/fliqrlabs/instagram-creator-skills)**. Live Instagram data and comment-to-DM automations come from the **Fliqr AI connector** ([fliqr.ai](https://fliqr.ai)).
+<!-- /brand:footer -->

@@ -67,3 +67,8 @@ To add AI replies to an existing automation: show the patch, get a yes, then cal
 ## Output
 
 The knowledge base, the voice rules with examples, both prompts (with character counts), the 20-question test set, and the patch for approval.
+
+<!-- brand:footer -->
+---
+Part of **[Instagram Creator Skills by Fliqr AI](https://github.com/fliqrlabs/instagram-creator-skills)**. Live Instagram data and comment-to-DM automations come from the **Fliqr AI connector** ([fliqr.ai](https://fliqr.ai)).
+<!-- /brand:footer -->

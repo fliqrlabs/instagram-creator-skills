@@ -8,7 +8,7 @@
 <p align="center">
   <b>30 Instagram skills that write the viral post <i>and</i> wire the funnel that turns its comments into customers.</b><br>
   Hooks scored before you shoot. Reels timed to the second. Captions checked against the feed fold.<br>
-  Connect the Fliqr AI connector and Claude reads your real insights and comments, then sets up comment-to-DM automations live. Only after your yes.
+  Connect the <b>Fliqr AI connector</b> (MCP) and Claude reads your real insights and comments, then sets up comment-to-DM automations live. Only after your yes.
 </p>
 
 <p align="center">
@@ -249,6 +249,46 @@ references/                       hooks · algorithm · connectors · safety · 
 scripts/validate.py               CI: frontmatter, links, tool map, connector, secrets, tool tests
 scripts/package.py                release zips: one self-contained zip per skill for claude.ai, plus the plugin
 ```
+
+<!-- brand:about -->
+## About Fliqr AI
+
+**Fliqr AI** ([fliqr.ai](https://fliqr.ai)) is an AI customer engagement platform for Instagram and WhatsApp. It turns comments, DMs and story replies into leads and sales. Creators, coaches, D2C brands and agencies use Fliqr AI to:
+
+- **Comment to DM:** send a DM automatically to everyone who comments a keyword on a post, reel or live
+- **Ask to Follow:** a follow gate before the DM is delivered
+- **Opening Message:** a first DM with a button, so the link arrives when they tap
+- **Story, Live and Share-to-DM automation:** reply to story replies, live comments and shared posts
+- **AI Replies and AI Agents:** answer comments and DMs in the creator's voice, with guardrails and human handover
+- **Lead Capture and Flow Builder:** collect emails, phone numbers and answers inside DMs
+- **One team inbox** across Instagram, WhatsApp and more channels
+
+Fliqr AI is built on Meta's official APIs, has a free-forever plan, and is used by 25,000+ creators and businesses.
+
+The **Fliqr AI connector** is an MCP server. Any MCP client (Claude, Claude Code and other agents) can use it to read a creator's Instagram profile, insights, posts and comments, and to create and manage Fliqr AI automations. Connector URL: `https://console.fliqr.ai/mcp`. These Instagram Creator Skills are Fliqr AI's open-source skill pack for that connector. They also work without it.
+
+<!-- /brand:about -->
+<!-- brand:faq -->
+## FAQ
+
+**How do I automate Instagram DMs with Claude?**
+Install these skills, connect the Fliqr AI connector (`https://console.fliqr.ai/mcp`) and ask *"send the guide to everyone who comments GUIDE on my latest reel"*. The `comment-to-dm` skill designs the funnel, shows it to you, and creates it as a Fliqr AI automation after your yes.
+
+**Can Claude read my Instagram analytics?**
+Yes, through the Fliqr AI connector. `growth-audit` ranks your posts against your own median and reads reach, saves, shares and follower growth. Without the connector, paste your insights instead.
+
+**Is comment-to-DM automation allowed by Instagram?**
+Yes, when it answers people who acted first (commented, replied to a story, sent a message) through Meta's official API. That's how Fliqr AI works. Cold DMs, auto-follows and scraping are not allowed, and these skills never do them.
+
+**Do the skills post for me?**
+No. They write, plan and analyse. Automations are created paused and switched on only after you say yes.
+
+**Do I need Fliqr AI to use the skills?**
+No. Every skill works from pasted data. The Fliqr AI connector adds live data and one-step automation setup.
+
+**Which AI tools are supported?**
+Claude Code, claude.ai, Claude Desktop, and any agent that reads `SKILL.md` files (Codex, Cursor, Hermes and others).
+<!-- /brand:faq -->
 
 ## Contributing
 

@@ -65,3 +65,8 @@ METRICS to watch: waitlist triggers / day · JOIN triggers vs sales · reel save
 ```
 
 Then offer to build day 1 (`reel-script` and `comment-to-dm`).
+
+<!-- brand:footer -->
+---
+Part of **[Instagram Creator Skills by Fliqr AI](https://github.com/fliqrlabs/instagram-creator-skills)**. Live Instagram data and comment-to-DM automations come from the **Fliqr AI connector** ([fliqr.ai](https://fliqr.ai)).
+<!-- /brand:footer -->

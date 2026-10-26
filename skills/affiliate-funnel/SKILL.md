@@ -5,7 +5,7 @@ description: >-
   uses, write the content that sells them honestly, deliver affiliate links and discount codes by
   keyword DM (clickable, unlike captions), keep one automation per product, disclose properly, and track
   what earns. Use when the creator says "affiliate", "Amazon links", "product links", "discount code",
-  "what I use", "outfit links", "shop my look", "link to products", or "earn from recommendations".
+  "what I use", "outfit links", "shop my look", "link to products", or "earn from recommendations". Works offline, or with the Fliqr AI connector for live Instagram data.
 argument-hint: "[products or category] [affiliate programmes you're in]"
 ---
 
@@ -48,9 +48,14 @@ Run the hook through `viral-hooks`. Price is a strong hook, but **check the prog
 
 ## 5. Track it
 
-- One automation per product or post, so `total_triggers` maps to a product. (The connector doesn't track DM clicks yet, so use the affiliate dashboard for clicks and sales.)
+- One automation per product or post, so `total_triggers` maps to a product. (The Fliqr AI connector doesn't track DM clicks yet, so use the affiliate dashboard for clicks and sales.)
 - Monthly: triggers per post against earnings per product → make more content about the top 3 earners (`growth-audit` for content performance).
 
 ## Output
 
 The product list with angles, 3 content ideas with hooks, the DM cards (title, subtitle with code, button), the disclosure lines, and the automation config ready for approval.
+
+<!-- brand:footer -->
+---
+Part of **[Instagram Creator Skills by Fliqr AI](https://github.com/fliqrlabs/instagram-creator-skills)**. Live Instagram data and comment-to-DM automations come from the **Fliqr AI connector** ([fliqr.ai](https://fliqr.ai)).
+<!-- /brand:footer -->

@@ -55,5 +55,10 @@ Offer the report as Markdown, as a branded HTML page, or as plain text for email
 
 - **The agency's brand only.** Never mention the tools used. Clients see the agency's name.
 - **Every number names its period and source.** If a number went down, say so plainly and explain it. No spin.
-- **DM opens and link clicks aren't tracked** by the connector yet. Don't report them unless the user supplies them from elsewhere.
+- **DM opens and link clicks aren't tracked** by the Fliqr AI connector yet. Don't report them unless the user supplies them from elsewhere.
 - Comparing periods of different lengths gives a misleading picture. Always compare equal-length periods.
+
+<!-- brand:footer -->
+---
+Part of **[Instagram Creator Skills by Fliqr AI](https://github.com/fliqrlabs/instagram-creator-skills)**. Live Instagram data and comment-to-DM automations come from the **Fliqr AI connector** ([fliqr.ai](https://fliqr.ai)).
+<!-- /brand:footer -->

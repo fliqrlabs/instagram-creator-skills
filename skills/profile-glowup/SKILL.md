@@ -36,10 +36,15 @@ Explain every lost point in one line. Then rewrite in **fix-first order**: bigge
 
 ## The DM keyword in the bio
 
-"DM me 'GUIDE'" in the bio turns profile visits into conversations with no link click needed. In connected mode, check `list_automations` to see whether a DM keyword flow exists for it. If it doesn't, say so. Bio keywords need a DM automation configured in the creator's dashboard (the connector manages comment, story and live automations).
+"DM me 'GUIDE'" in the bio turns profile visits into conversations with no link click needed. In connected mode, check `list_automations` to see whether a DM keyword flow exists for it. If it doesn't, say so. Bio keywords need a DM automation configured in the creator's dashboard (the Fliqr AI connector manages comment, story and live automations).
 
 ## Output
 
 Score, then 3 bio options (each under 150 characters, line breaks shown), the name-field rewrite, a highlight plan with cover-text ideas, the 3 pins with reasons, and grid notes. Lint each bio with `python3 ../polish/scripts/polish.py bio.txt --mode bio` (`python` on Windows). It checks the 150-character limit, the CTA, proof and slop.
 
 Never change the profile directly. The creator pastes the changes in themselves.
+
+<!-- brand:footer -->
+---
+Part of **[Instagram Creator Skills by Fliqr AI](https://github.com/fliqrlabs/instagram-creator-skills)**. Live Instagram data and comment-to-DM automations come from the **Fliqr AI connector** ([fliqr.ai](https://fliqr.ai)).
+<!-- /brand:footer -->

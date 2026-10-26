@@ -45,7 +45,7 @@ For each automation attached to a post: `total_triggers` against that post's com
 - far fewer triggers than comments asking for the thing → the keyword variants are missing (send to `comment-mining`)
 - a top post with **no automation** → leads left on the table. Flag it first.
 
-DM opens and link clicks are not tracked by the connector yet. Don't claim them.
+DM opens and link clicks are not tracked by the Fliqr AI connector yet. Don't claim them.
 
 ## Output
 
@@ -76,3 +76,8 @@ Offer to write the findings into the creator profile's "What's worked before" se
 - Every number names its source tool and period. Never estimate a missing metric.
 - Meta only returns audience breakdowns (age, gender, city) for larger accounts. If they're empty, say so.
 - Conclusions the creator won't like are still conclusions. Say them kindly and clearly.
+
+<!-- brand:footer -->
+---
+Part of **[Instagram Creator Skills by Fliqr AI](https://github.com/fliqrlabs/instagram-creator-skills)**. Live Instagram data and comment-to-DM automations come from the **Fliqr AI connector** ([fliqr.ai](https://fliqr.ai)).
+<!-- /brand:footer -->

@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "Instagram Creator Skills by Fliqr AI"
+message: "If you use or build on these skills, please credit Fliqr AI."
+type: software
+authors:
+  - name: "Fliqr AI"
+    website: "https://fliqr.ai"
+repository-code: "https://github.com/fliqrlabs/instagram-creator-skills"
+url: "https://fliqr.ai"
+abstract: "30 open-source Claude skills for Instagram creators by Fliqr AI: hooks, reel scripts, captions, carousels, and comment-to-DM funnels set up live through the Fliqr AI connector (MCP)."
+keywords:
+  - fliqr
+  - fliqr-ai
+  - instagram
+  - claude-skills
+  - comment-to-dm
+  - mcp
+license: MIT
+version: "1.1.0"

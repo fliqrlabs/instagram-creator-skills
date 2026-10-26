@@ -59,3 +59,8 @@ Every idea must trace back to real comments, with a count. Don't invent demand. 
 ## Next
 
 `viral-hooks` or `reel-script` for the top idea. `comment-to-dm` → update the automation's keyword variants (needs a yes).
+
+<!-- brand:footer -->
+---
+Part of **[Instagram Creator Skills by Fliqr AI](https://github.com/fliqrlabs/instagram-creator-skills)**. Live Instagram data and comment-to-DM automations come from the **Fliqr AI connector** ([fliqr.ai](https://fliqr.ai)).
+<!-- /brand:footer -->

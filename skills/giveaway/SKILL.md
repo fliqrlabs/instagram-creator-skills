@@ -5,7 +5,7 @@ description: >-
   prize choice, entry mechanics, official-rules text, Meta promotion-guideline compliance, a comment
   automation that confirms every entry by DM, the winner-pick process, and the post-giveaway plan so
   new followers stay. Use when the creator says "giveaway", "contest", "win a", "collab giveaway",
-  "brand giveaway", "how do I run a giveaway", or "giveaway rules".
+  "brand giveaway", "how do I run a giveaway", or "giveaway rules". Works offline, or with the Fliqr AI connector for live Instagram data.
 argument-hint: "[prize] [solo or with a brand/creator] [goal: followers / leads / launch buzz]"
 ---
 
@@ -60,3 +60,8 @@ Prize promotions are regulated differently by country, and some Indian states re
 ## Output
 
 The concept, the post copy (`caption` rules apply), the automation config, the official rules draft, the winner-pick steps and the 5-day retention plan.
+
+<!-- brand:footer -->
+---
+Part of **[Instagram Creator Skills by Fliqr AI](https://github.com/fliqrlabs/instagram-creator-skills)**. Live Instagram data and comment-to-DM automations come from the **Fliqr AI connector** ([fliqr.ai](https://fliqr.ai)).
+<!-- /brand:footer -->

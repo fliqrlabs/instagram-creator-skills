@@ -49,3 +49,8 @@ Give each creator a **unique keyword or code** (GLOW1, GLOW2…). On the creator
 ## Creator side
 
 If a **creator** asks for this skill about a brand deal: write the questions to send the brand (usage rights, whitelisting, exclusivity, payment terms, revisions, disclosure), and then the brief back to them in this format. Pair it with `brand-pitch` for the rates.
+
+<!-- brand:footer -->
+---
+Part of **[Instagram Creator Skills by Fliqr AI](https://github.com/fliqrlabs/instagram-creator-skills)**. Live Instagram data and comment-to-DM automations come from the **Fliqr AI connector** ([fliqr.ai](https://fliqr.ai)).
+<!-- /brand:footer -->

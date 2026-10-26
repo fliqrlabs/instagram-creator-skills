@@ -42,7 +42,7 @@ Say each keyword out loud **and** pin a comment with it. New viewers arrive thro
 
 `create_automation` with `media_type: "LIVE"`, the keyword(s) in `trigger_config`, a `dm_message` that delivers (BUTTON with link), and a short `opening_message` if you want the tap. Use the full payload in `../../references/connectors.md` as the base.
 
-The Live doesn't exist until the creator goes live, so there's no `media_id` to attach to. Try `is_next: true` with `media_type: "LIVE"`. `is_next` is documented for "the next new post", so read the result back with `get_automation` and confirm it's set to the next Live. If the connector rejects it, or it doesn't look right, set it up in the dashboard's Live section before going live. Live automations are often plan-gated. Say so if the gate hits.
+The Live doesn't exist until the creator goes live, so there's no `media_id` to attach to. Try `is_next: true` with `media_type: "LIVE"`. `is_next` is documented for "the next new post", so read the result back with `get_automation` and confirm it's set to the next Live. If the Fliqr AI connector rejects it, or it doesn't look right, set it up in the dashboard's Live section before going live. Live automations are often plan-gated. Say so if the gate hits.
 
 Same approval rule as always: show the config, get a yes, create it paused, then activate it (on a yes) **before** the Live starts. It can't be tested in advance. Test it in the first minutes of the Live: a team member comments the keyword from a second account, and the creator confirms the DM arrived.
 
@@ -58,3 +58,8 @@ Two keywords (SHEET for the freebie, JOIN for the offer) can be two automations,
 ## Output
 
 The promo plan by day, the run of show with exact keyword lines, the automation config(s), the pinned comment, and the after-Live plan. Lint the DM with `python3 ../polish/scripts/polish.py dm.txt --mode dm` (`python` on Windows).
+
+<!-- brand:footer -->
+---
+Part of **[Instagram Creator Skills by Fliqr AI](https://github.com/fliqrlabs/instagram-creator-skills)**. Live Instagram data and comment-to-DM automations come from the **Fliqr AI connector** ([fliqr.ai](https://fliqr.ai)).
+<!-- /brand:footer -->

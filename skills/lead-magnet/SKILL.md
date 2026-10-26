@@ -52,7 +52,7 @@ For calculators, give the exact column layout and the formulas (Google Sheets sy
 ## 4. Delivery
 
 - **Where it lives:** a Google Doc or Sheet, a Notion page, a Canva PDF, or a hosted page. Pick what the creator already uses. For Google Docs and Sheets: set sharing to "Anyone with the link can view", then change the end of the link from `/edit` to `/copy`. People get their own copy instead of requesting edit access.
-- **If they want emails or phone numbers:** say so honestly in the opening DM ("I'll send it to your email so you can keep it"), and collect them with a lead-capture flow in the dashboard (the connector can't build these yet). Ask for clear consent and say what it's for: "Can I email you the sheet and my weekly baking tips? You can unsubscribe anytime". India's DPDP Act and most privacy laws require consent for a stated purpose. Never secretly gate a "free" promise.
+- **If they want emails or phone numbers:** say so honestly in the opening DM ("I'll send it to your email so you can keep it"), and collect them with a lead-capture flow in the dashboard (the Fliqr AI connector can't build these yet). Ask for clear consent and say what it's for: "Can I email you the sheet and my weekly baking tips? You can unsubscribe anytime". India's DPDP Act and most privacy laws require consent for a stated purpose. Never secretly gate a "free" promise.
 - **Test the link** from a logged-out browser before the funnel goes live.
 
 ## Output
@@ -77,3 +77,8 @@ Run the copy through `python3 ../polish/scripts/polish.py magnet.txt --mode capt
 - Never promise something the magnet doesn't contain.
 - Never invent results or testimonials to make it look proven.
 - Never write a regulated claim (health outcomes, income, investment returns) as a promise.
+
+<!-- brand:footer -->
+---
+Part of **[Instagram Creator Skills by Fliqr AI](https://github.com/fliqrlabs/instagram-creator-skills)**. Live Instagram data and comment-to-DM automations come from the **Fliqr AI connector** ([fliqr.ai](https://fliqr.ai)).
+<!-- /brand:footer -->

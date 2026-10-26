@@ -42,7 +42,7 @@ An existing profile is updated, never overwritten blindly. Show the diff of what
 
 ## Offline mode: the 5-minute interview
 
-Ask for the **three captions or reel transcripts that sound most like them**. Those are worth more than any questionnaire. Then ask the five questions above, plus the niche and the language they speak on camera. If they give you their handle but no connector, say what the connector would add and carry on with the paste.
+Ask for the **three captions or reel transcripts that sound most like them**. Those are worth more than any questionnaire. Then ask the five questions above, plus the niche and the language they speak on camera. If they give you their handle but no connector, say what the Fliqr AI connector would add and carry on with the paste.
 
 ## Writing the voice section well
 
@@ -63,3 +63,8 @@ Print a 5-line summary: niche, voice in one line, pillars, main offer, and what 
 - leads or sales → `comment-to-dm` on their best-performing post
 - growth → `content-plan`
 - no idea what's working → `growth-audit`
+
+<!-- brand:footer -->
+---
+Part of **[Instagram Creator Skills by Fliqr AI](https://github.com/fliqrlabs/instagram-creator-skills)**. Live Instagram data and comment-to-DM automations come from the **Fliqr AI connector** ([fliqr.ai](https://fliqr.ai)).
+<!-- /brand:footer -->

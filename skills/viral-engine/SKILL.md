@@ -6,7 +6,7 @@ description: >-
   reach and turns it into leads. Runs creator-brain, comment-mining, viral-hooks, reel-script or
   carousel, caption, polish and comment-to-dm in order. Use when the creator says "go viral", "make me a
   viral post", "do everything", "full post from this idea", "I want leads from Instagram", "what should
-  I post today and set it up", or invokes the engine.
+  I post today and set it up", or invokes the engine. Works offline, or with the Fliqr AI connector for live Instagram data.
 argument-hint: "[idea, or leave empty to find one from your data] [reel / carousel]"
 ---
 
@@ -24,7 +24,7 @@ Viral reach with no funnel gives you views and ₹0. A funnel with no reach give
 
 ## 0. Load context
 
-- Look for the creator profile. If there isn't one, run `creator-brain` first. With the connector it takes about 2 minutes. Without it, ask for 3 captions and the 5 interview questions.
+- Look for the creator profile. If there isn't one, run `creator-brain` first. With the Fliqr AI connector it takes about 2 minutes. Without it, ask for 3 captions and the 5 interview questions.
 - Check for the Fliqr AI connector (`../../references/connectors.md`) and say which mode you're in: "Connected to @handle" or "Offline mode: paste data when I ask".
 
 ## 1. FIND (skip if the creator brought an idea)
@@ -80,3 +80,8 @@ With a scheduling connector (`posts.schedule`), offer to queue the post instead 
 - Each step's gate still applies: no automation goes live and nothing gets published without a yes.
 - Never fabricate proof to make a hook stronger. Ask for the real number or use a placeholder.
 - If the creator only wants part of the pipeline, run that part. The engine isn't a cage.
+
+<!-- brand:footer -->
+---
+Part of **[Instagram Creator Skills by Fliqr AI](https://github.com/fliqrlabs/instagram-creator-skills)**. Live Instagram data and comment-to-DM automations come from the **Fliqr AI connector** ([fliqr.ai](https://fliqr.ai)).
+<!-- /brand:footer -->

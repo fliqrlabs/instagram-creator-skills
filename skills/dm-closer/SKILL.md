@@ -86,3 +86,8 @@ The full map as copy-ready messages, each linted:
 python3 ../polish/scripts/polish.py msg.txt --mode dm
 ```
 Each message is 1,000 characters or fewer (Instagram's limit). One question per message.
+
+<!-- brand:footer -->
+---
+Part of **[Instagram Creator Skills by Fliqr AI](https://github.com/fliqrlabs/instagram-creator-skills)**. Live Instagram data and comment-to-DM automations come from the **Fliqr AI connector** ([fliqr.ai](https://fliqr.ai)).
+<!-- /brand:footer -->

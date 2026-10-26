@@ -89,3 +89,8 @@ CHECKS               hook 2.6s ✓ · loop "six hours" ✓ · longest beat 3.4s 
 - Don't build a script around trending audio the creator can't use. Original audio with a voiceover is safer, and it's original.
 - Never fabricate results. Use `{{your number}}`.
 - When remixing someone else's viral reel, copy the **structure**, never the words. Use `trend-remix`.
+
+<!-- brand:footer -->
+---
+Part of **[Instagram Creator Skills by Fliqr AI](https://github.com/fliqrlabs/instagram-creator-skills)**. Live Instagram data and comment-to-DM automations come from the **Fliqr AI connector** ([fliqr.ai](https://fliqr.ai)).
+<!-- /brand:footer -->

@@ -47,3 +47,8 @@ For each: number, topic, hook (formula #), format, and what makes it different f
 ## Output
 
 Series name, format, structure, cover template notes, cadence, the series keyword, 10 episodes with hooks, and a 4-week slot in `content-plan` form. Score the episode hooks with `python3 ../polish/scripts/polish.py hooks.txt --mode hook` (`python` on Windows).
+
+<!-- brand:footer -->
+---
+Part of **[Instagram Creator Skills by Fliqr AI](https://github.com/fliqrlabs/instagram-creator-skills)**. Live Instagram data and comment-to-DM automations come from the **Fliqr AI connector** ([fliqr.ai](https://fliqr.ai)).
+<!-- /brand:footer -->

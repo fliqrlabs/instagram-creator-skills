@@ -5,7 +5,7 @@ description: >-
   the name field and username, keyword-rich bio, captions, on-screen text, spoken words, alt text,
   sized hashtags (5 max) and location tags, mapped into a keyword plan per content pillar. Use when the
   creator says "Instagram SEO", "show up in search", "keywords for Instagram", "nobody finds my
-  account", "hashtag research", "what should my name field say", "searchable captions", or "alt text".
+  account", "hashtag research", "what should my name field say", "searchable captions", or "alt text". Works offline, or with the Fliqr AI connector for live Instagram data.
 argument-hint: "[niche] [city/region if local] [@handle optional]"
 ---
 
@@ -45,3 +45,8 @@ Output: a **keyword map** with 1 primary keyword per pillar and 3-5 secondary on
 ## Output
 
 The keyword map, the name field and bio rewrite (lint with `python3 ../polish/scripts/polish.py bio.txt --mode bio`, `python` on Windows), a caption keyword checklist for future posts, and the audit fixes. Never stuff keywords in. Written for humans first, it still has to read naturally.
+
+<!-- brand:footer -->
+---
+Part of **[Instagram Creator Skills by Fliqr AI](https://github.com/fliqrlabs/instagram-creator-skills)**. Live Instagram data and comment-to-DM automations come from the **Fliqr AI connector** ([fliqr.ai](https://fliqr.ai)).
+<!-- /brand:footer -->

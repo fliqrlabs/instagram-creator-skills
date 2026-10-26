@@ -57,3 +57,8 @@ FUNNELS TO SET UP: 2 (DM, GUIDE). Run comment-to-dm when each post is ready.
 ```
 
 Then offer: script the big swing now (`reel-script`), write the carousel (`carousel`), or set up the funnels (`comment-to-dm`, needs the posts live or `is_next`). With a scheduling connector (`posts.schedule` in `../../references/connectors.md`), offer to queue the finished posts. Without one, give a copy-ready list.
+
+<!-- brand:footer -->
+---
+Part of **[Instagram Creator Skills by Fliqr AI](https://github.com/fliqrlabs/instagram-creator-skills)**. Live Instagram data and comment-to-DM automations come from the **Fliqr AI connector** ([fliqr.ai](https://fliqr.ai)).
+<!-- /brand:footer -->
