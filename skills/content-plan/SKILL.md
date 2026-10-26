@@ -1,0 +1,59 @@
+---
+name: content-plan
+description: >-
+  Plan a week or month of Instagram content where every post has a goal, a format, a hook formula, a
+  CTA and (for lead posts) a keyword funnel, built on the creator's pillars and real performance data.
+  Use when the creator says "plan my week", "content calendar", "what should I post this week", "30 days
+  of content", "content pillars", "posting schedule", "launch plan", or "I'm inconsistent". With the
+  Fliqr AI connector it plans around the creator's actual winners and comment demand.
+argument-hint: "[week / month] [goal: growth / leads / launch] [posts per week]"
+---
+
+# content-plan
+
+Consistency beats volume, and a plan beats both. This skill plans posts that each do one job, and wires the lead posts to funnels before they go out.
+
+Read: the creator profile (pillars, offer, what's worked), `../../references/hooks.md`, `../../references/algorithm.md`.
+
+## Inputs
+
+- **Goal** for the period: growth, leads, launch or brand deals. It sets the mix below.
+- **Capacity:** realistic posts per week. Fewer and better wins. Default to 4 feed posts plus daily stories.
+- **Evidence:** in connected mode, run a quick version of `growth-audit` (top 5 outliers) and `comment-mining` (top 5 questions). Offline, ask what did well recently and what people keep asking.
+- **Dates that matter:** a launch, sale, festival (Diwali, Holi, Eid, Christmas), or an event in the niche.
+
+## The mix
+
+| Goal | Reach (SEND/FOLLOW) | Trust (SAVE) | Convert (LEAD) |
+|---|---|---|---|
+| Growth | 60% | 30% | 10% |
+| Leads | 30% | 30% | 40% |
+| Launch (the week before) | 30% | 20% | 50%, plus a story-funnel every day |
+
+Every **LEAD** post gets a keyword and a lead magnet that exists. Missing a magnet? Plan the magnet first (a checklist, template or mini-guide). It can be one carousel's content repackaged as a PDF.
+
+## Planning rules
+
+- **Rotate pillars and formulas.** No pillar twice in a row, and no hook formula repeated within a week.
+- **Series beat one-offs.** "Day 1/7", "Part 2", recurring formats ("DM Teardown Tuesday") give people a reason to follow. Design one with `series-planner`.
+- **Launching something?** Use `launch-campaign` for the launch window instead. It plans the warm-up, open-cart and close phases and their automations.
+- **Have long-form content?** `repurpose` turns one video or podcast into a week of posts.
+- **Reels drive reach, carousels drive saves, stories drive sales.** Use each for its job.
+- **One big swing a week:** the post you'd be proud of if it blew up. Give it the best hook and a funnel.
+- **Reuse winners.** A 5x outlier from last month deserves a sequel, a new angle, or the carousel version.
+
+## Output
+
+```
+WEEK OF {date}  ·  goal LEADS  ·  4 posts + daily stories  ·  evidence: 2 outliers, top question "how to set up auto-DM"
+
+DAY  FORMAT    PILLAR      GOAL   HOOK (formula)                                   CTA / FUNNEL
+Mon  Reel      Automation  SEND   "Your reel went viral. You made ₹0." (#13)      comment "DM" → setup guide [new automation]
+Tue  Story     —           LEAD   problem → poll → "reply GUIDE"                  story automation GUIDE
+Wed  Carousel  DMs         SAVE   "7 DM mistakes (I made #4 for a year)" (#8)     save + comment "GUIDE" [reuse automation]
+Fri  Reel      Results     FOLLOW "I let AI reply to my comments for 7 days" (#10) "Day 8 tomorrow"
+Sun  Reel      Personal    SEND   POV (#16)                                        send to a friend
+FUNNELS TO SET UP: 2 (DM, GUIDE). Run comment-to-dm when each post is ready.
+```
+
+Then offer: script the big swing now (`reel-script`), write the carousel (`carousel`), or set up the funnels (`comment-to-dm`, needs the posts live or `is_next`). With a scheduling connector (`posts.schedule` in `../../references/connectors.md`), offer to queue the finished posts. Without one, give a copy-ready list.

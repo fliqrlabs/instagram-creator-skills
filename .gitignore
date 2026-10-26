@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.env
+creator-profile.md
+posts.json
+.DS_Store
+dist/

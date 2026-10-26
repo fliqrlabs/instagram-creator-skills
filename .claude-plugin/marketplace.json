@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "fliqrlabs",
+  "description": "Instagram Creator Skills by Fliqr AI: from viral hook to live comment-to-DM funnel.",
+  "owner": {
+    "name": "Fliqr AI",
+    "url": "https://fliqr.ai"
+  },
+  "plugins": [
+    {
+      "name": "fliqr",
+      "description": "30 Instagram creator skills: hooks, reels, carousels, captions, series, repurposing, lead magnets, comment-to-DM, story, live and share-to-DM funnels, launches, giveaways, affiliate funnels, DM closers, AI-reply training, comment mining and replies, SEO, growth audits, competitor teardowns, client reports, brand pitches, UGC briefs and a humanizer. Live data and automations through the Fliqr AI connector.",
+      "source": "./",
+      "category": "marketing",
+      "homepage": "https://github.com/fliqrlabs/instagram-creator-skills"
+    }
+  ]
+}

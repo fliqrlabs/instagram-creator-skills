@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "fliqr": {
+      "type": "http",
+      "url": "https://console.fliqr.ai/mcp"
+    }
+  }
+}
