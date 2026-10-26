@@ -1,0 +1,148 @@
+{
+ "items": [
+  {
+   "id": "0",
+   "media_product_type": "REELS",
+   "caption": "fixture post 0",
+   "comments_count": 11,
+   "insights": {
+    "views": 1000,
+    "reach": 800,
+    "saved": 16,
+    "shares": 6
+   }
+  },
+  {
+   "id": "1",
+   "media_product_type": "REELS",
+   "caption": "fixture post 1",
+   "comments_count": 13,
+   "insights": {
+    "views": 1200,
+    "reach": 960,
+    "saved": 20,
+    "shares": 8
+   }
+  },
+  {
+   "id": "2",
+   "media_product_type": "REELS",
+   "caption": "fixture post 2",
+   "comments_count": 10,
+   "insights": {
+    "views": 900,
+    "reach": 720,
+    "saved": 15,
+    "shares": 6
+   }
+  },
+  {
+   "id": "3",
+   "media_product_type": "REELS",
+   "caption": "fixture post 3",
+   "comments_count": 12,
+   "insights": {
+    "views": 1100,
+    "reach": 880,
+    "saved": 18,
+    "shares": 7
+   }
+  },
+  {
+   "id": "4",
+   "media_product_type": "REELS",
+   "caption": "fixture post 4",
+   "comments_count": 14,
+   "insights": {
+    "views": 1300,
+    "reach": 1040,
+    "saved": 21,
+    "shares": 8
+   }
+  },
+  {
+   "id": "5",
+   "media_product_type": "REELS",
+   "caption": "fixture post 5",
+   "comments_count": 10,
+   "insights": {
+    "views": 950,
+    "reach": 760,
+    "saved": 15,
+    "shares": 6
+   }
+  },
+  {
+   "id": "6",
+   "media_product_type": "REELS",
+   "caption": "fixture post 6",
+   "comments_count": 11,
+   "insights": {
+    "views": 1050,
+    "reach": 840,
+    "saved": 17,
+    "shares": 7
+   }
+  },
+  {
+   "id": "7",
+   "media_product_type": "REELS",
+   "caption": "fixture post 7",
+   "comments_count": 122,
+   "insights": {
+    "views": 11000,
+    "reach": 8800,
+    "saved": 183,
+    "shares": 440
+   }
+  },
+  {
+   "id": "8",
+   "media_product_type": "REELS",
+   "caption": "fixture post 8",
+   "comments_count": 46,
+   "insights": {
+    "views": 4200,
+    "reach": 3360,
+    "saved": 70,
+    "shares": 28
+   }
+  },
+  {
+   "id": "9",
+   "media_product_type": "REELS",
+   "caption": "fixture post 9",
+   "comments_count": 8,
+   "insights": {
+    "views": 800,
+    "reach": 640,
+    "saved": 13,
+    "shares": 5
+   }
+  },
+  {
+   "id": "10",
+   "media_product_type": "REELS",
+   "caption": "fixture post 10",
+   "comments_count": 11,
+   "insights": {
+    "views": 1000,
+    "reach": 800,
+    "saved": 16,
+    "shares": 6
+   }
+  },
+  {
+   "id": "11",
+   "media_product_type": "REELS",
+   "caption": "fixture post 11",
+   "comments_count": 12,
+   "insights": {
+    "views": 1150,
+    "reach": 920,
+    "saved": 19,
+    "shares": 7
+   }
+  }
+ ]
+}
