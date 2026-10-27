@@ -40,8 +40,8 @@ HOOK_MAX_S = 3.0          # spoken hook should land inside 3 seconds (~9 words a
 # Non-ASCII characters are built with chr() so this file stays plain ASCII.
 EM, EN, ELLIPSIS = chr(0x2014), chr(0x2013), chr(0x2026)
 LDQ, RDQ, LSQ, RSQ = chr(0x201C), chr(0x201D), chr(0x2018), chr(0x2019)
-RUPEE = chr(0x20B9)
-DEVANAGARI = chr(0x0900) + "-" + chr(0x097F)
+# Currency symbols count as "specific" in a hook: dollar, euro, pound, yen, rupee.
+CURRENCY = "$" + chr(0x20AC) + chr(0x00A3) + chr(0x00A5) + chr(0x20B9)
 INVISIBLE = re.compile("[" + "".join(chr(c) for c in (
     0x200B, 0x200C, 0x200D, 0x2060, 0x2061, 0x2062, 0x2063, 0x2064, 0xFEFF, 0x00AD, 0x180E))
     + chr(0x202A) + "-" + chr(0x202E) + chr(0x2066) + "-" + chr(0x2069)
@@ -51,9 +51,12 @@ EMOJI = re.compile("[" + chr(0x1F300) + "-" + chr(0x1FAFF) + chr(0x2600) + "-" +
 QUOTE = "[\"'" + LDQ + RDQ + LSQ + RSQ + "]"
 
 NUMBER_WORDS = "|".join(re.escape(w) for w in RULES["number_words"])
-NUMBER = re.compile(r"(\d|" + RUPEE + r"|\b(" + NUMBER_WORDS + r")\b)", re.I)
+NUMBER = re.compile(r"(\d|[" + re.escape(CURRENCY) + r"]|\b(" + NUMBER_WORDS + r")\b)", re.I)
 TENSION = re.compile(r"\b(" + "|".join(re.escape(w) for w in RULES["tension_words"]) + r")\b", re.I)
-HASHTAG = re.compile(r"(?<!\w)#[\w" + DEVANAGARI + "]+")
+YOU_WORDS = re.compile(r"\b(" + "|".join(re.escape(w) for w in RULES["you_words"]) + r")\b", re.I)
+ME_WORDS = re.compile(r"\b(" + "|".join(re.escape(w) for w in RULES["me_words"]) + r")\b", re.I)
+# Hashtags in any script: everything after # up to whitespace or punctuation.
+HASHTAG = re.compile(r"(?<!\w)#[^\s#.,!?;:()\[\]{}\"']+")
 URL = re.compile(r"https?://\S+|www\.\S+|\b\w+\.(com|in|io|ai|co|link|me)\b/?\S*", re.I)
 # Verb is case-insensitive; the keyword must be a standalone CAPS word ("DMs" never matches "DM").
 KEYWORD_CTA = re.compile(r"(?i:\b(?:comment|type|reply|dm me|send me)\b)[^.\n]{0,25}?" + QUOTE + r"?\b([A-Z][A-Z0-9]{1,15})\b")
@@ -174,8 +177,7 @@ def lint_caption(text, keywords, r):
 
 def score_hook(line):
     """Heuristic 0-100. Kills weak hooks; it cannot pick winners."""
-    words = re.findall(r"[\w'$%" + RUPEE + DEVANAGARI + "]+", line)
-    n = len(words)
+    n = len(line.split())
     score = 50
     notes = []
     low = line.lower().strip()
@@ -188,14 +190,14 @@ def score_hook(line):
         score += 15
     else:
         notes.append("no number or specific")
-    if re.search(r"\b(you|your|you're|aap|aapka|aapki|tum|tumhara|tera|teri)\b", low):
+    if YOU_WORDS.search(low):
         score += 8
-    if re.search(r"\b(i|my|we|maine|mera|meri|hum)\b", low) and has_number:
+    if ME_WORDS.search(low) and has_number:
         score += 7  # first-person proof with a number
     if has_tension:
         score += 10
     else:
-        notes.append("no tension word (mistake, lost, nobody, actually, galti...)")
+        notes.append("no tension word (mistake, lost, nobody, actually...)")
     if n <= 9:
         score += 10
     elif n > 14:

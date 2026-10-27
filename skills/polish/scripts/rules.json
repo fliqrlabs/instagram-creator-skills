@@ -1,5 +1,5 @@
 {
-  "_about": "Edit freely. 'replace' is auto-fixed; 'flag' is reported for a human rewrite (whole-word match); 'tells' are regexes for sentence shapes that need judgement (case-sensitive unless they start with (?i)); 'dead_openers' kill a hook outright; 'number_words' and 'tension_words' feed the hook scorer, Hinglish included.",
+  "_about": "Edit freely. 'replace' is auto-fixed; 'flag' is reported for a human rewrite (whole-word match); 'tells' are regexes for sentence shapes that need judgement (case-sensitive unless they start with (?i)); 'dead_openers' kill a hook outright; 'number_words', 'tension_words', 'you_words' and 'me_words' feed the hook scorer. The lists are English by default: add the words for any other language your audience uses.",
   "replace": {
     "utilize": "use",
     "utilise": "use",
@@ -88,7 +88,6 @@
     "hello everyone",
     "hey everyone",
     "welcome back",
-    "namaste dosto",
     "hello friends",
     "in this video",
     "in today's video",
@@ -98,7 +97,11 @@
     "stop scrolling",
     "wait for it",
     "don't skip",
-    "quick video"
+    "quick video",
+    "hi everyone",
+    "hello guys",
+    "hey friends",
+    "what's up guys"
   ],
   "number_words": [
     "one",
@@ -116,23 +119,10 @@
     "fifty",
     "hundred",
     "thousand",
-    "lakh",
-    "lakhs",
-    "crore",
-    "crores",
     "million",
     "billion",
     "k",
-    "zero",
-    "ek",
-    "do",
-    "teen",
-    "char",
-    "paanch",
-    "das",
-    "sau",
-    "hazaar",
-    "hazar"
+    "zero"
   ],
   "tension_words": [
     "nobody",
@@ -160,24 +150,24 @@
     "flop",
     "flopped",
     "zero",
-    "nahi",
-    "galti",
-    "galat",
-    "sach",
-    "kyun",
-    "kaise",
-    "barbaad",
-    "dhokha",
-    "koi nahi",
-    "sabse badi",
     "losing",
     "loss",
     "wasted",
     "wasting",
     "behind",
     "undercharged",
-    "overpaying",
-    "nuksaan",
-    "ghata"
+    "overpaying"
+  ],
+  "you_words": [
+    "you",
+    "your",
+    "you're",
+    "yours"
+  ],
+  "me_words": [
+    "i",
+    "my",
+    "we",
+    "our"
   ]
 }

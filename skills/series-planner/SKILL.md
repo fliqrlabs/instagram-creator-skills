@@ -21,10 +21,10 @@ Read: the creator profile, `../instagram-playbook/hooks.md`, `../instagram-playb
 |---|---|---|
 | **Countdown challenge** | "Day 7/30 of pricing every cake I sell" | a visible finish line, progress to root for |
 | **Teardown** | "DM Teardown Tuesday: I fix your sales DMs" | audience submissions, endless topics |
-| **Rating / ranking** | "Rating Indore bakeries' Instagram, 1-10" | opinion → comments → sends |
+| **Rating / ranking** | "Rating my city's bakeries' Instagram, 1-10" | opinion → comments → sends |
 | **Myth-busting** | "Myth #12: you need a big following to sell" | save-worthy, contrarian |
 | **One question** | "Asking 100 bakers what they charge" | a numbered episode with real data |
-| **Build in public** | "Building my bakery to ₹1L/month: week 6" | ongoing story, real numbers |
+| **Build in public** | "Building my bakery to $10K/month: week 6" | ongoing story, real numbers |
 
 Pick the one the creator can make **50 episodes** of without running dry, at the cadence they can keep.
 

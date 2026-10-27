@@ -6,13 +6,13 @@
 <p align="center"><i>by Fliqr AI</i></p>
 
 <p align="center">
-  <b>30 Instagram skills that write the viral post <i>and</i> wire the funnel that turns its comments into customers.</b><br>
+  <b>32 Instagram skills that write the viral post <i>and</i> wire the funnel that turns its comments into customers.</b><br>
   Hooks scored before you shoot. Reels timed to the second. Captions checked against the feed fold.<br>
   Connect the <b>Fliqr AI connector</b> (MCP) and Claude reads your real insights and comments, then sets up comment-to-DM automations live. Only after your yes.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/skills-30-6C3BFF" alt="30 skills">
+  <img src="https://img.shields.io/badge/skills-32-6C3BFF" alt="32 skills">
   <img src="https://img.shields.io/badge/Claude_Code-plugin-D97757?logo=anthropic&logoColor=white" alt="Claude Code plugin">
   <img src="https://img.shields.io/badge/claude.ai-skills-8A63D2" alt="claude.ai skills">
   <img src="https://img.shields.io/badge/Codex%20·%20Cursor%20·%20Hermes-compatible-111827" alt="Works with other agents">
@@ -36,10 +36,10 @@ These skills go one step further:
 | Builds the **comment → DM funnel** | ❌ "use a tool for that" | ✅ designs it **and sets it up live**, created paused, activated on your yes |
 | DM conversation after the keyword | ❌ | ✅ qualify, branch, handle objections, AI-agent brief |
 | Brand deals with **proof** | ❌ | ✅ media kit from real numbers, including funnel stats |
-| Hinglish and regional voice | rarely | ✅ written for how creators actually talk |
+| Sounds like the creator, in any language | rarely | ✅ voice profile + humanizer |
 | Grows with new connectors | ❌ | ✅ capability map: new tools plug in, skills don't change |
 
-A viral reel with no funnel gets you views and ₹0. A funnel with no reach gets you nothing to convert. **This pack builds both.**
+A viral reel with no funnel gets you views and $0. A funnel with no reach gets you nothing to convert. **This pack builds both.**
 
 ## Install
 
@@ -105,7 +105,7 @@ Permissions are scoped: `instagram.read` for profile, insights, media and commen
 "Pitch a skincare brand for a collab, with a media kit from my real numbers"
 ```
 
-## The 30 skills
+## The 32 skills
 
 **Start here**
 
@@ -152,13 +152,15 @@ Permissions are scoped: `instagram.read` for profile, insights, media and commen
 | 🔎 | **`instagram-seo`** | Keyword map, name field, bio, captions, alt text, hashtags: get found in search | reads profile + posts |
 | ✨ | **`profile-glowup`** | Profile scored out of 100, bio rewrites, highlights, pins | reads profile |
 | 📅 | **`content-plan`** | A week or month where every post has a goal, a formula, a CTA and a funnel | reads winners |
+| 🔬 | **`niche-research`** | What's working in your niche: reels from 6-12 accounts ranked against each account's own median, a swipe file of winning formulas | |
+| 🗣️ | **`engagement-round`** | Your daily 20 minutes: 10 accounts to comment on, and comments from 9 types that read like a person. You post them. | |
 | 🕵️ | **`competitor-teardown`** | Another account's outliers, funnel and gaps, and a position you can own | |
 
 **Measure and monetise**
 
 | | Skill | What it does | Live data |
 |---|---|---|---|
-| 📈 | **`growth-audit`** | Outliers vs **your** median, sends/saves per reach, retention graphs, funnel health, three moves | reads insights |
+| 📈 | **`growth-audit`** | Outliers vs **your** median, hold at 3s, which formulas win (from your post log), hook-vs-profile diagnosis, three moves | reads insights |
 | 📊 | **`client-report`** | The one-page weekly or monthly report agencies send clients, with every number sourced | reads all accounts |
 | 💼 | **`brand-pitch`** | Media kit from real numbers, a 5-line pitch, rate ranges, deliverables brief | reads insights |
 | 🎬 | **`ugc-brief`** | Brand → creator briefs with angles, specs, usage rights and a per-creator keyword to count results | |
@@ -171,11 +173,11 @@ Standard-library Python. Runs offline, on your text. Nothing is uploaded.
 ```
 HOOK RANKING
 ======================================================================
-->  83.0 STRONG  Nobody tells you your first 30 reels are supposed to flop
-    73.0 STRONG  Your reel got 1 million views. You made 0 rupees.
+->  83.0 STRONG  Your reel got 1 million views. You made $0.
+    83.0 STRONG  Nobody tells you your first 30 reels are supposed to flop
     40.0 WEAK    Some tips for growth
                  no number or specific
-                 no tension word (mistake, lost, nobody, actually, galti...)
+                 no tension word (mistake, lost, nobody, actually...)
      5.0 WEAK    Hey guys, today I want to talk about content strategy
                  dealbreaker: opens with 'hey guys'. Nobody came to the feed to be greeted
 ```
@@ -218,7 +220,7 @@ OUTLIERS  ·  12 posts  ·  baseline: median views 1,075
 you:     "Send the 30-day planner to everyone who comments PLAN on my latest reel"
 
 claude:  FUNNEL  ·  "Reel: 30-day planner"
-         post:          "Your reel went viral. You made ₹0." (latest reel)
+         post:          "Your reel went viral. You made $0." (latest reel)
          trigger:       KEYWORDS  PLAN, plans, planner, plan pls
          public reply:  6 variations ("Sent! check your DMs 📩", …), limit 300
          opening DM:    "Hey 👋 here's the planner you asked for…"  [Send it 📩]
@@ -251,7 +253,7 @@ Text that followers see never names a tool, so every client keeps their own voic
 ## Repo map
 
 ```
-skills/<name>/SKILL.md            30 skills
+skills/<name>/SKILL.md            32 skills + the shared instagram-playbook
 skills/polish/scripts/            polish.py (humanizer + linter: caption, hook, script, dm, bio), rules.json (edit me)
 examples/home-baker/              one idea to a live funnel, with real tool output
 skills/growth-audit/scripts/      outliers.py (rank by multiple of your median)

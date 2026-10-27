@@ -50,9 +50,9 @@ TEST:  #1 vs #2. Same body, a week apart. Judge on 3-second hold, not views.
 - **Frame 1 is the hook.** No fade-in, no logo, no "hey guys". The video starts at the sentence they'd normally reach at second six.
 - **Open a gap, not a fact.** "The one setting that doubled my reach" beats "here are some reach tips".
 - **Tease, never lie.** Every loop the hook opens, the content must close.
-- **Numbers over adjectives.** "₹40,000" beats "a lot of money". If you don't have the number, use `{{your number}}`, never a made-up one.
-- **Rotate formulas.** If the creator's last 3 posts used the same formula, don't suggest it first.
-- **Match the language.** Hinglish creators get Hinglish hooks. Don't make them sound like a LinkedIn post.
+- **Numbers over adjectives.** "$4,000" beats "a lot of money". If you don't have the number, use `{{your number}}`, never a made-up one.
+- **Rotate formulas.** Read the post log (`../instagram-playbook/post-log.md`) if it exists. Don't suggest a formula first if one of the last 3 posts used it, and lead with formulas the audit says win for this creator.
+- **Match the creator's language.** Write in the language (and the mix of languages) they speak on camera. Don't make them sound like a LinkedIn post.
 
 ## Next
 

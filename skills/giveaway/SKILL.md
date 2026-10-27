@@ -49,7 +49,7 @@ Draft rules covering:
 - the release of Instagram and the not-sponsored acknowledgement above (both)
 - organiser contact details
 
-Prize promotions are regulated differently by country, and some Indian states restrict games of chance. Flag it: **"Have these rules checked for your country before posting."** This skill drafts the rules. It is not legal advice.
+Prize promotions are regulated differently by country and state. Some places restrict games of chance, require registration, or ban purchase-to-enter. Flag it: **"Have these rules checked for your country before posting."** This skill drafts the rules. It is not legal advice.
 
 ## 5. Winner and after
 

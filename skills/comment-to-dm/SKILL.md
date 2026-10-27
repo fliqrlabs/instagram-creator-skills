@@ -36,7 +36,7 @@ A good keyword is:
 
 - **One word, easy to spell on a phone, and on topic.** "PLAN", "HOOKS", "RECIPE", "PRICE", "LINK". Use CAPS in the caption so it stands out. Matching is not case-sensitive in practice, but list common variants anyway.
 - **Not a word people type anyway.** "yes", "nice", "wow" and emoji fire on everything. Avoid them.
-- **Has the variants listed:** singular and plural, a common misspelling, and the Hindi/Hinglish form if the audience uses it (`["PLAN", "plans", "plan pls", "planner"]`).
+- **Has the variants listed:** singular and plural, a common misspelling, and the word in the audience's other language if they comment in more than one (`["PLAN", "plans", "plan pls", "planner"]`).
 
 When a post's job is reach (not one specific asset), consider `ALL_COMMENTS` with an AI public reply instead of a keyword. Explain the trade-off: a keyword filters for intent, all-comments maximises conversation. **`ALL_COMMENTS` always gets a reply limit** (see 3a). Replying to every comment on a post that's taking off looks like spam and can hit Meta's rate limits.
 
@@ -138,6 +138,8 @@ Then run the follower-facing text through the polish tool:
 5. Tell the creator how to test it: "Comment PLAN from a second account and you should get the DM within a minute."
 
 Already have one on this post? Call `list_automations` with `media_id` first. Offer to **update** the existing one instead of stacking a second.
+
+After it's live, add the keyword and automation id to that post's line in the post log (`../instagram-playbook/post-log.md`), or add a `(funnel)` line.
 
 ## 6. Offline mode
 

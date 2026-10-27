@@ -5,7 +5,7 @@ description: >-
   waitlist keyword, open-cart days, honest urgency and close, with a day-by-day calendar of reels,
   carousels, stories and lives, plus every comment-to-DM and story automation it needs (set up through
   the Fliqr AI connector after approval). Use when the creator says "launch", "launching my course",
-  "product drop", "pre-launch", "waitlist", "open cart", "sell out my cohort", "Diwali sale", or
+  "product drop", "pre-launch", "waitlist", "open cart", "sell out my cohort", "holiday sale", or
   "festival sale".
 argument-hint: "[what you're launching] [price] [launch date] [cart close date]"
 ---
@@ -38,7 +38,7 @@ CLOSE    (last 24-48 hours)   honest deadline, final FAQ, last call
 
 ## Urgency, honestly
 
-Only real deadlines, real seat limits and real bonuses. "Only 3 spots left" when it isn't true breaks trust. In India it's also a "false urgency" dark pattern, banned under the CCPA's Guidelines for Prevention and Regulation of Dark Patterns (2023), and it can breach ASCI's code on misleading claims. Good honest urgency: early-bird pricing that actually ends, a cohort start date, a bonus live call for the first 48 hours.
+Only real deadlines, real seat limits and real bonuses. "Only 3 spots left" when it isn't true breaks trust. Consumer-protection rules in many countries treat fake scarcity and false countdowns as misleading practices or "dark patterns" (for example the FTC in the US, the CMA in the UK, the EU's Unfair Commercial Practices rules, and India's 2023 dark-pattern guidelines). Good honest urgency: early-bird pricing that actually ends, a cohort start date, a bonus live call for the first 48 hours.
 
 ## Automations to set up
 
@@ -50,7 +50,7 @@ List every automation the campaign needs, each with its keyword, the post it's a
 ## Output
 
 ```
-LAUNCH  ·  {product} ₹{price}  ·  warm-up {dates} · open {dates} · close {date}
+LAUNCH  ·  {product} {price}  ·  warm-up {dates} · open {dates} · close {date}
 
 DAY   PHASE    FEED                                   STORIES                      AUTOMATION
 -10   warm-up  Reel: "{hook}" (#13)                   poll: problem check          WAITLIST on this reel [new]

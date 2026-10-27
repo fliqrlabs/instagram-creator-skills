@@ -26,12 +26,12 @@ AUDIENCE      who's buying, their problem, the words they use
 HOOK ANGLES   5 options, different formulas (problem/solution, before/after, honest review,
               "things I wish I knew", POV). Creators pick one or bring their own.
 MUST SAY      product name · the one key benefit · the offer/code · the CTA
-NEVER SAY     unapproved claims (medical, "guaranteed", "best in India"), competitor names, prices that change
+NEVER SAY     unapproved claims (medical, "guaranteed", "best in the world"), competitor names, prices that change
 SHOT LIST     product in hand in the first 3s · in use · the result · the face for the CTA
 SPECS         9:16, 15-45s, burned-in captions, original audio or licensed music, safe zones respected
 DELIVERABLES  {n} reels + {n} story frames · raw files Y/N · {n} revisions
 USAGE RIGHTS  organic repost / paid ads (whitelisting) · duration (e.g. 3 months) · regions. Priced separately.
-DISCLOSURE    Paid partnership label + #ad, as required (ASCI in India, FTC in the US)
+DISCLOSURE    Paid partnership label + #ad, as required in each market (see the disclosure rules in safety.md)
 CTA + FUNNEL  "Comment {KEYWORD} for {offer}". Each creator gets their own keyword or code so results can be attributed.
 TIMELINE      brief → script approval → shoot → draft → revisions → post date
 ```

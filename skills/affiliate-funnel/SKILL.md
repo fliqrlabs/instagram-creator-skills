@@ -23,13 +23,13 @@ Ask which products they actually own and use. Affiliate content works on trust, 
 
 | Format | Hook example |
 |---|---|
-| **"Everything I use for X"** | "Every tool on my desk, under ₹5,000 total." |
-| **Before/after with the product** | "Same room. ₹2,400 of changes." |
+| **"Everything I use for X"** | "Every tool on my desk, under $500 total." |
+| **Before/after with the product** | "Same room. $240 of changes." |
 | **The honest review** | "I used this for 90 days. 2 things I hate." |
-| **Problem → product** | "My reels were dark. This ₹999 light fixed it." |
-| **Dupes / budget versions** | "The ₹800 version of the ₹8,000 one." |
+| **Problem → product** | "My reels were dark. This $39 light fixed it." |
+| **Dupes / budget versions** | "The $30 version of the $300 one." |
 
-Run the hook through `viral-hooks`. Price is a strong hook, but **check the programme's rules first**. Amazon Associates, for example, doesn't allow showing static prices next to its products, because prices change. For those programmes use a range ("under ₹1,000"), or no price.
+Run the hook through `viral-hooks`. Price is a strong hook, but **check the programme's rules first**. Amazon Associates, for example, doesn't allow showing static prices next to its products, because prices change. For those programmes use a range ("under $50"), or no price.
 
 ## 3. The DM delivery
 
@@ -42,7 +42,7 @@ Run the hook through `viral-hooks`. Price is a strong hook, but **check the prog
 
 ## 4. Disclosure (non-negotiable)
 
-- On the post: say it's an affiliate link and that the creator earns a commission (in India, ASCI's influencer guidelines call for clear disclosure of material connections; the FTC expects the same in the US). Use the Paid partnership label when a brand is paying for the post.
+- On the post: say it's an affiliate link and that the creator earns a commission (advertising regulators such as the FTC in the US, the ASA and CMA in the UK, and ASCI in India all require clear disclosure of material connections). Use the Paid partnership label when a brand is paying for the post.
 - Some programmes require their own wording. Amazon Associates requires: "As an Amazon Associate I earn from qualifying purchases." Put it on the post and on the page that holds the links. Check every programme's terms for its required line.
 - Never hide the link type with a link shortener in order to mislead.
 

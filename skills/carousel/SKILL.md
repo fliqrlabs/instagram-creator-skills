@@ -42,6 +42,10 @@ Numbered lists get a visible counter (3/7) so the reader knows where the finish 
 - Leave the bottom ~10% clear on slide 1. The caption overlay can cover it in some views.
 - A short video slide in slot 2 or 3 can lift dwell time. Images and videos can be mixed in one carousel.
 
+## Log it
+
+When the creator approves the slides, append one line to the post log (`../instagram-playbook/post-log.md`): date, `carousel`, pillar, goal, the cover's formula, the cover line, slide count, keyword.
+
 ## Output
 
 ```

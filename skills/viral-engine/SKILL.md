@@ -20,7 +20,7 @@ The other skills each do one job. This one runs the whole loop:
   └──────────────────────── next idea comes from what worked ◄───────────────┘
 ```
 
-Viral reach with no funnel gives you views and ₹0. A funnel with no reach gives you nothing to convert. This engine always builds both.
+Viral reach with no funnel gives you views and $0. A funnel with no reach gives you nothing to convert. This engine always builds both.
 
 ## 0. Load context
 
@@ -58,7 +58,11 @@ For LEAD posts, and for any post the creator expects to do well, run `comment-to
 
 Create it paused, show it, and activate it only on a yes.
 
-## 7. HAND-OFF
+## 7. LOG
+
+Append the approved post to the post log (`../instagram-playbook/post-log.md`), with its formula, keyword and automation id.
+
+## 8. HAND-OFF
 
 One final block the creator can work from:
 

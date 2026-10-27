@@ -5,9 +5,9 @@
 
 ## Who I am
 - **Name / handle:**
-- **Niche, in one line:** (specific: "home bakers in Tier-2 cities", not "food")
+- **Niche, in one line:** (specific: "home bakers selling their first 100 cakes", not "food")
 - **Who I talk to:** (one person: age, situation, what keeps them up at night)
-- **Language on camera:** (English / Hindi / Hinglish / Tamil / ...)
+- **Language on camera:** (and any mix of languages)
 - **Follower count & stage:** (0-10K starting / 10-100K growing / 100K+ scaling)
 
 ## What I sound like

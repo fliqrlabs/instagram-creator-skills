@@ -83,6 +83,10 @@ FUNNEL               → run `comment-to-dm` with keyword EDIT → the template 
 CHECKS               hook 2.6s ✓ · loop "six hours" ✓ · longest beat 3.4s ✓ · polish PASS
 ````
 
+## 6. Log it
+
+When the creator approves the final script, append one line to the post log (format in `../instagram-playbook/post-log.md`): date, `reel`, pillar, goal, hook formula, the spoken hook, length, and keyword. That's what lets `growth-audit` say which formulas win for this creator.
+
 ## Rules
 
 - No greeting, no intro, no "in this video".

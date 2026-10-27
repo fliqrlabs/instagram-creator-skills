@@ -19,7 +19,7 @@ Read: the creator profile, `../instagram-playbook/connectors.md`, `../instagram-
 
 - **Pick one outcome:** sign-ups, sales, bookings or downloads. One.
 - **A title with a result:** "Price your cakes live: send me your recipe, I'll do the math".
-- **Promo:** a reel or carousel 3 days out, stories with a countdown sticker (people can tap to get a reminder), and a "Live tomorrow" story with the time in their timezone (IST for India).
+- **Promo:** a reel or carousel 3 days out, stories with a countdown sticker (people can tap to get a reminder), and a "Live tomorrow" story with the time in the audience's timezone (or two timezones if the audience is split).
 - **Collect questions in advance** with a question box. Answering their own questions live is what keeps people watching.
 - **Co-host?** A guest brings their audience. Invite them through Instagram's Live guest feature, and agree who says what.
 

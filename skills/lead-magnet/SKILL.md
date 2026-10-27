@@ -12,7 +12,7 @@ argument-hint: "[topic] [who it's for] [the paid offer it should lead to]"
 
 # lead-magnet
 
-A keyword CTA is only as strong as what it promises. "Comment GUIDE for my guide" gets shrugs. "Comment PRICE for the sheet that told me I was losing ₹300 a cake" gets hundreds. This skill designs the promise and then writes the thing itself, so the funnel has something worth sending.
+A keyword CTA is only as strong as what it promises. "Comment GUIDE for my guide" gets shrugs. "Comment PRICE for the sheet that told me I was losing $30 a cake" gets hundreds. This skill designs the promise and then writes the thing itself, so the funnel has something worth sending.
 
 Read: the creator profile (offer, audience, proof), `../instagram-playbook/safety.md`.
 
@@ -52,7 +52,7 @@ For calculators, give the exact column layout and the formulas (Google Sheets sy
 ## 4. Delivery
 
 - **Where it lives:** a Google Doc or Sheet, a Notion page, a Canva PDF, or a hosted page. Pick what the creator already uses. For Google Docs and Sheets: set sharing to "Anyone with the link can view", then change the end of the link from `/edit` to `/copy`. People get their own copy instead of requesting edit access.
-- **If they want emails or phone numbers:** say so honestly in the opening DM ("I'll send it to your email so you can keep it"), and collect them with a lead-capture flow in the dashboard (the Fliqr AI connector can't build these yet). Ask for clear consent and say what it's for: "Can I email you the sheet and my weekly baking tips? You can unsubscribe anytime". India's DPDP Act and most privacy laws require consent for a stated purpose. Never secretly gate a "free" promise.
+- **If they want emails or phone numbers:** say so honestly in the opening DM ("I'll send it to your email so you can keep it"), and collect them with a lead-capture flow in the dashboard (the Fliqr AI connector can't build these yet). Ask for clear consent and say what it's for: "Can I email you the sheet and my weekly baking tips? You can unsubscribe anytime". Privacy laws such as the GDPR (EU/UK), CCPA (California) and India's DPDP Act require consent for a stated purpose. Never secretly gate a "free" promise.
 - **Test the link** from a logged-out browser before the funnel goes live.
 
 ## Output

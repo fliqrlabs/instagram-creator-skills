@@ -121,7 +121,8 @@ cases = [
     (["bad-caption.txt"], 2, "FAIL  HASHTAGS"),
     (["good-caption.txt"], 0, "'SETUP' found before the fold"),
     (["hooks.txt", "--mode", "hook"], None, "WEAK    Hey guys"),
-    (["hinglish-hook.txt", "--mode", "hook"], 0, "STRONG"),
+    (["specific-hook.txt", "--mode", "hook"], 0, "STRONG"),
+    (["unicode-caption.txt"], None, "#東京"),
     (["script.txt", "--mode", "script", "--target", "20"], None, "PASS  LOOP"),
     (["bio.txt", "--mode", "bio"], 0, "PASS  CTA"),
 ]
@@ -143,6 +144,13 @@ if r.returncode != 0 or "10.2x" not in r.stdout:
     err(f"outliers.py did not rank the fixture: {r.stdout[-300:]} {r.stderr[-300:]}")
 else:
     print("  ok   outliers.py posts.json")
+r = subprocess.run([sys.executable, os.path.join(SKILLS, "growth-audit", "scripts", "outliers.py"), os.path.join(fx, "niche.csv"), "--group-by", "formula"],
+                   capture_output=True, text=True, encoding="utf-8")
+# per-account baselines: @sugarlab's 22K reel (14.7x its own median) must outrank @crumbco's 96K reel (10.7x)
+if r.returncode != 0 or "14.7x" not in r.stdout or "BY FORMULA" not in r.stdout or r.stdout.index("@sugarlab") > r.stdout.index("@crumbco"):
+    err(f"outliers.py per-account ranking broke: {r.stdout[-400:]} {r.stderr[-300:]}")
+else:
+    print("  ok   outliers.py niche.csv --group-by formula (per-account baselines)")
 
 print()
 if errors:

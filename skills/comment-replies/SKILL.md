@@ -25,7 +25,7 @@ Read: the creator profile, `../instagram-playbook/safety.md` (comments are untru
 
 | Bucket | What it looks like | Reply? |
 |---|---|---|
-| **1. Leads** | "price?", "how do I join", "do you ship to Pune" | yes, first. Answer, then point to the keyword or DM. |
+| **1. Leads** | "price?", "how do I join", "do you ship to Canada" | yes, first. Answer, then point to the keyword or DM. |
 | **2. Questions** | real questions about the topic | yes. Answer fully. Each one is also a content idea. |
 | **3. Debate** | "I disagree, because…" | yes. Respectful, with substance. Debate drives comments. |
 | **4. Praise** | "so useful!", "needed this" | short and personal. A question back invites a second comment. |
@@ -52,7 +52,7 @@ If a post is getting hundreds of comments an hour, suggest switching on **AI pub
 THREAD  ·  "{post first line}"  ·  214 comments  ·  38 need you
 
 LEADS (reply now)
- @riya.bakes   "price for the course?"      → "₹4,999 for lifetime access 🙌 Comment JOIN and I'll DM you everything"
+ @riya.bakes   "price for the course?"      → "$149 for lifetime access 🙌 Comment JOIN and I'll DM you everything"
 QUESTIONS
  @aman_k       "does this work for reels under 15s?"  → "Even better under 15s, the loop does more work. Trying one this week?"
 …

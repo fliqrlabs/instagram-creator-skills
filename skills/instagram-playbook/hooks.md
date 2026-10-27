@@ -11,10 +11,10 @@ The examples are templates, not facts. Fill them with the creator's real numbers
 | # | Name | Goal | Template | Example (spoken / on-screen) |
 |---|---|---|---|---|
 | 1 | **Time Collapse** | SAVE | "{task} used to take me {long}. Now it's {short}." | "Editing a reel took me 6 hours. Now it's 40 minutes." / 6 HRS → 40 MIN |
-| 2 | **Number Reveal** | FOLLOW | "{specific number} {unit} from {small thing}." | "₹2.3 lakh in sales from one reel." / ₹2.3L, ONE REEL |
+| 2 | **Number Reveal** | FOLLOW | "{specific number} {unit} from {small thing}." | "$23,000 in sales from one reel." / $23K, ONE REEL |
 | 3 | **Before/After** | SAVE | "This was my {thing} in {date}. This is it now." | "This was my Instagram in March. This is it today." / MARCH vs NOW |
 | 4 | **Someone Else's Result** | SEND | "{person} did {X} and got {result}." | "My student posted one carousel and got 412 DMs." / 412 DMs |
-| 5 | **The Statistic** | SEND | "{surprising stat} and here's why." | "9 out of 10 viral reels make ₹0. Here's why." / VIRAL ≠ MONEY |
+| 5 | **The Statistic** | SEND | "{surprising stat} and here's why." | "9 out of 10 viral reels make $0. Here's why." / VIRAL ≠ MONEY |
 
 ## Tension and curiosity
 
@@ -22,12 +22,12 @@ The examples are templates, not facts. Fill them with the creator's real numbers
 |---|---|---|---|---|
 | 6 | **Nobody Tells You** | SEND | "Nobody tells you {uncomfortable truth}." | "Nobody tells you your first 30 reels are supposed to flop." / FIRST 30 FLOP |
 | 7 | **Contrarian Flip** | COMMENT | "{common advice} is wrong. Do {this}." | "Posting daily is killing your reach." / STOP POSTING DAILY |
-| 8 | **The Mistake** | SAVE | "I lost {cost} because of {one thing}." | "I lost ₹40,000 because of one missing line in a contract." / ₹40K MISTAKE |
+| 8 | **The Mistake** | SAVE | "I lost {cost} because of {one thing}." | "I lost $4,000 because of one missing line in a contract." / $4K MISTAKE |
 | 9 | **The Steal** | SAVE | "Steal the {asset} that {result}." | "Steal the DM script that booked 31 calls." / STEAL THIS |
 | 10 | **Countdown Payoff** | FOLLOW | "I tried {X} for {N} days. Day {N} {changed everything}." | "I let AI reply to my comments for 7 days. Day 7 broke my inbox." / DAY 7 |
 | 11 | **The Reveal** | SEND | "This is how {big name / outcome} actually {does X}." | "This is how big creators actually get 1,000 DMs a day." / THE REAL REASON |
 | 12 | **Wrong Way / Right Way** | SAVE | "You're doing {X} wrong. Watch." | "You're writing your bio wrong. Watch." / ❌ → ✅ |
-| 13 | **The Hidden Cost** | SEND | "Your {thing} went viral. You made ₹0." | "Your reel got 1 million views. You made ₹0." / 1M VIEWS. ₹0. |
+| 13 | **The Hidden Cost** | SEND | "Your {thing} went viral. You made $0." | "Your reel got 1 million views. You made $0." / 1M VIEWS. $0. |
 | 14 | **Only {N}% Know** | SEND | "Only {small group} knows this {feature/trick}." | "Most creators don't know Instagram lets you do this." / HIDDEN SETTING |
 | 15 | **Open Question** | COMMENT | "Why does {surprising thing} happen?" | "Why do small accounts get more DMs than big ones?" / WHY? |
 
@@ -63,7 +63,7 @@ The examples are templates, not facts. Fill them with the creator's real numbers
 
 ## What kills a hook
 
-- **A greeting.** "Hey guys", "namaste dosto", "welcome back".
+- **A greeting.** "Hey guys", "hi everyone", "welcome back", in any language.
 - **A preamble.** "In today's video", "so today I want to".
 - **Begging for attention.** "Stop scrolling", "wait for it", "don't skip".
 - **Nothing concrete.** No number, no name, no result.
@@ -73,4 +73,4 @@ The examples are templates, not facts. Fill them with the creator's real numbers
 
 ## Language
 
-Write hooks in whatever language the creator speaks on camera. For many Indian creators that is Hinglish ("Ye ek setting aapki reach double kar degi"). Keep the on-screen line in the script the audience reads fastest. Never translate a creator's voice into formal English.
+Write hooks in whatever language the creator speaks on camera, including mixed-language speech if that's how they talk. Keep the on-screen line in the language the audience reads fastest. Never flatten a creator's voice into formal textbook language. The scorer's word lists are English by default; add tension and number words for other languages in `polish/scripts/rules.json`.

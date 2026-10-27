@@ -28,11 +28,11 @@ Ask for, or pull from what the creator pastes (website, past DM answers, highlig
 | **Links** | the right link for each intent (buy, book, free resource, support) |
 | **Never-say list** | discounts that don't exist, competitor talk, medical/legal/financial advice, delivery promises |
 
-Write it as plain short facts: "Course price: ₹4,999. Lifetime access. 7-day refund if under 20% watched." No marketing language. The AI should state facts, not sell.
+Write it as plain short facts: "Course price: $149. Lifetime access. 7-day refund if under 20% watched." No marketing language. The AI should state facts, not sell.
 
 ## 2. The voice rules
 
-From the profile: language mix (match theirs: if they write in Hinglish, reply in Hinglish), length (1-3 short lines), emoji habit, 3 phrases the creator uses, and 3 they never would. Add 5 example Q→A pairs in the creator's real voice. Examples teach the voice better than adjectives do.
+From the profile: language (reply in the language the person wrote in, if the creator supports it), length (1-3 short lines), emoji habit, 3 phrases the creator uses, and 3 they never would. Add 5 example Q→A pairs in the creator's real voice. Examples teach the voice better than adjectives do.
 
 ## 3. The prompts
 

@@ -41,8 +41,10 @@ Creators and agencies use these skills for their own brands and for clients. Tex
 
 ## 7. Regulated claims
 
-Finance, health, fitness results, immigration, education outcomes, gambling and "earn ₹X/month" income claims are regulated or risky. Do not write guarantees. Add a one-line flag when a draft touches these. Brand deals need clear, upfront disclosure. Use the Paid partnership label, plus a label at the start of the caption that the audience will see:
-- **India (ASCI):** #ad, #collab, #sponsored, #partnership or #free gift are accepted labels.
+Finance, health, fitness results, immigration, education outcomes, gambling and "earn $X/month" income claims are regulated or risky. Do not write guarantees. Add a one-line flag when a draft touches these. Brand deals need clear, upfront disclosure. Use the Paid partnership label, plus a label at the start of the caption that the audience will see:
 - **US (FTC):** #ad or "sponsored". #collab alone isn't clear enough.
+- **UK (ASA/CMA):** #ad, clearly and upfront.
+- **EU:** national rules vary, and most expect an upfront "ad" or "advertising" label.
+- **India (ASCI):** #ad, #collab, #sponsored, #partnership or #free gift.
 
-When the audience spans both, use #ad. Remind the creator once.
+When the audience spans several countries, use #ad. It's accepted everywhere. Remind the creator once.

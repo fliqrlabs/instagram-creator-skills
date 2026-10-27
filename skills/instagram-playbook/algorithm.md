@@ -87,4 +87,4 @@ A reel with 4,000 views and 90 sends beat a reel with 60,000 views and 11 sends.
 
 ## Timing
 
-Consistency beats volume. 3-5 strong posts a week on a steady cadence beats daily filler. For timing, use the creator's own insights. As a starting guess for Indian audiences, *reported* windows are 12-2 PM and 7-10 PM IST, with Sunday evening strong.
+Consistency beats volume. 3-5 strong posts a week on a steady cadence beats daily filler. For timing, use the creator's own insights. As a starting guess, *reported* windows are lunchtime and early evening in the audience's own timezone, with Sunday evening strong. Your insights beat any general rule.

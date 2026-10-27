@@ -42,7 +42,7 @@ python3 ../growth-audit/scripts/outliers.py posts.csv --top 3
 
 - **Topic gaps:** questions their audience asks that they never answer
 - **Format gaps:** they only do talking heads → the creator does screen recordings or demos
-- **Audience gaps:** they serve beginners → the creator serves the next level, a city, or a language (Hinglish, a regional language)
+- **Audience gaps:** they serve beginners → the creator serves the next level, a city, or a language the competitor doesn't serve
 - **Funnel gaps:** viral posts with no keyword → the creator puts a funnel on the same topic
 
 ## Output
@@ -50,10 +50,10 @@ python3 ../growth-audit/scripts/outliers.py posts.csv --top 3
 ```
 TEARDOWN  ·  @competitor  ·  24 posts  ·  median 12K views  ·  source: pasted by you
 
-THEIR WINNERS   3 posts 3x+: all "Hidden Cost" hooks (#13), all under 20s, all with a ₹ number
-THEIR FUNNEL    keyword on 2 of 24 posts · sells a ₹2,999 course · bio link goes to a link-in-bio page
+THEIR WINNERS   3 posts 3x+: all "Hidden Cost" hooks (#13), all under 20s, all with a $ number
+THEIR FUNNEL    keyword on 2 of 24 posts · sells a $99 course · bio link goes to a link-in-bio page
 THEY MISS       "pricing for eggless cakes" asked 40+ times, never answered
-YOUR POSITION   "the pricing person for Tier-2 home bakers", in Hinglish
+YOUR POSITION   "the pricing person for home bakers just starting out"
 PLAN            3 posts on their unanswered questions, with funnels → content-plan
 ```
 

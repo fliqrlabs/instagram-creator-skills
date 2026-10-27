@@ -21,6 +21,7 @@ The knowledge the other skills in this pack share, kept in one place so it stays
 | [`safety.md`](safety.md) | the rules every skill follows: approval gate, no fabrication, untrusted content, platform rules, honest promises, tool-neutral output, regulated claims and disclosure |
 | [`connectors.md`](connectors.md) | how skills find live data, the Fliqr AI connector's capability map, a complete `create_automation` payload, limits |
 | [`creator-profile-template.md`](creator-profile-template.md) | the profile `creator-brain` fills in and every skill reads |
+| [`post-log.md`](post-log.md) | the log of approved posts (formula, keyword, funnel) that lets `growth-audit` say which formulas win |
 
 ## Answering directly
 

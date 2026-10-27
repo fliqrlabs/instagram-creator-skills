@@ -5,3 +5,6 @@ __pycache__/
 /posts.json
 .DS_Store
 dist/
+/post-log.md
+/swipe-file.md
+/engagement-log.md

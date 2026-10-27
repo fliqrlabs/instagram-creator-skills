@@ -17,7 +17,7 @@ Read: the creator profile, `../instagram-playbook/algorithm.md`, `../instagram-p
 
 ## 1. Keyword research (no tool needed)
 
-1. **Seed list:** 10-15 phrases the audience would type. "cake pricing", "home bakery business", "eggless cake Indore". Use the audience's language: Hinglish searches are real searches.
+1. **Seed list:** 10-15 phrases the audience would type. "cake pricing", "home bakery business", "eggless cake Austin". Use the audience's own words and language: people search the way they talk.
 2. **Instagram search autocomplete:** the creator types each seed into Instagram search and screenshots the suggestions. Those are real searches. Ask for the screenshots, and never invent search volumes.
 3. **The audience's own words:** run `comment-mining` (connected) or read the comments. The phrases people use to ask are the phrases they search with.
 4. **Size each keyword:** look at the top posts under it. Huge accounts only → too broad for now. Accounts the creator's size or smaller → winnable.
