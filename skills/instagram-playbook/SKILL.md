@@ -8,6 +8,12 @@ description: >-
   template. Use when the creator asks how the Instagram algorithm works, what a good hook is, what
   Instagram allows, how DM automation works, or when another skill points here.
 argument-hint: "[question about Instagram reach, hooks, rules or the connector]"
+license: MIT
+metadata:
+  author: Fliqr AI
+  version: "1.3.0"
+  category: reference
+  homepage: https://fliqr.ai
 ---
 
 # instagram-playbook

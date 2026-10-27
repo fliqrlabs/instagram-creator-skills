@@ -7,6 +7,12 @@ description: >-
   "caption this", "write the description", "hashtags for this", "fix my caption", or has a finished reel,
   carousel or photo and needs the words.
 argument-hint: "[what the post is about, or the reel script] [CTA keyword if any]"
+license: MIT
+metadata:
+  author: Fliqr AI
+  version: "1.3.0"
+  category: create
+  homepage: https://fliqr.ai
 ---
 
 # caption

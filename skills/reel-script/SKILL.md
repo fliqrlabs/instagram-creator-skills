@@ -7,6 +7,12 @@ description: >-
   reel about X", "what should I say in this video", "voiceover for", "turn this into a reel", or is about
   to record and has no script.
 argument-hint: "[the idea, story or result] [length: 15/30/45s]"
+license: MIT
+metadata:
+  author: Fliqr AI
+  version: "1.3.0"
+  category: create
+  homepage: https://fliqr.ai
 ---
 
 # reel-script

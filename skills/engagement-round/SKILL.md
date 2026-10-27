@@ -8,6 +8,12 @@ description: >-
   their post", "engagement strategy", "grow without posting more", "who should I engage with", "daily
   engagement", or pastes someone else's post and wants a comment.
 argument-hint: "[paste the post(s) you want to comment on] or 'build my list'"
+license: MIT
+metadata:
+  author: Fliqr AI
+  version: "1.3.0"
+  category: engage
+  homepage: https://fliqr.ai
 ---
 
 # engagement-round

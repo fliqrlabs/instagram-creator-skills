@@ -8,6 +8,12 @@ description: >-
   "convert DMs to sales", "handle objections", "AI reply prompt", "train my AI agent", or "people ask
   price and ghost".
 argument-hint: "[what they commented for] [what you sell + price] [where the sale happens]"
+license: MIT
+metadata:
+  author: Fliqr AI
+  version: "1.3.0"
+  category: convert
+  homepage: https://fliqr.ai
 ---
 
 # dm-closer

@@ -7,6 +7,12 @@ description: >-
   the creator says "fix my bio", "audit my profile", "rewrite my bio", "people visit but don't follow",
   "optimize my Instagram profile", "what should I pin", or "highlights ideas".
 argument-hint: "[@handle or paste/screenshot your profile]"
+license: MIT
+metadata:
+  author: Fliqr AI
+  version: "1.3.0"
+  category: grow
+  homepage: https://fliqr.ai
 ---
 
 # profile-glowup

@@ -8,6 +8,12 @@ description: >-
   "influencer brief", "creator brief", "brief for my campaign", "what should creators say about my
   product", "brief from the brand", or "UGC script".
 argument-hint: "[product + audience + campaign goal] [number of creators, deliverables]"
+license: MIT
+metadata:
+  author: Fliqr AI
+  version: "1.3.0"
+  category: monetize
+  homepage: https://fliqr.ai
 ---
 
 # ugc-brief

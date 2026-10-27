@@ -7,6 +7,12 @@ description: >-
   creator says "Instagram SEO", "show up in search", "keywords for Instagram", "nobody finds my
   account", "hashtag research", "what should my name field say", "searchable captions", or "alt text". Works offline, or with the Fliqr AI connector for live Instagram data.
 argument-hint: "[niche] [city/region if local] [@handle optional]"
+license: MIT
+metadata:
+  author: Fliqr AI
+  version: "1.3.0"
+  category: grow
+  homepage: https://fliqr.ai
 ---
 
 # instagram-seo

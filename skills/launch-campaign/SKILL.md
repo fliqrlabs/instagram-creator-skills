@@ -8,6 +8,12 @@ description: >-
   "product drop", "pre-launch", "waitlist", "open cart", "sell out my cohort", "holiday sale", or
   "festival sale".
 argument-hint: "[what you're launching] [price] [launch date] [cart close date]"
+license: MIT
+metadata:
+  author: Fliqr AI
+  version: "1.3.0"
+  category: convert
+  homepage: https://fliqr.ai
 ---
 
 # launch-campaign

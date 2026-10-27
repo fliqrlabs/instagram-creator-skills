@@ -7,6 +7,12 @@ description: >-
   own platform. Use when the creator says "repurpose", "clip my podcast", "turn this video into reels",
   "cut this live", "content from my blog", "cross-post", "post this on LinkedIn too", or "Shorts".
 argument-hint: "[transcript, link + transcript, or the article text] [platforms]"
+license: MIT
+metadata:
+  author: Fliqr AI
+  version: "1.3.0"
+  category: create
+  homepage: https://fliqr.ai
 ---
 
 # repurpose

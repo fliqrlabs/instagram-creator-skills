@@ -6,6 +6,12 @@ description: >-
   paste. Use when the creator says "what should I post", "I'm out of ideas", "mine my comments", "what
   are people asking", "find leads in my comments", "who should I reply to", or "what do my followers want".
 argument-hint: "[which posts: latest / top 10 / a link] or paste comments"
+license: MIT
+metadata:
+  author: Fliqr AI
+  version: "1.3.0"
+  category: engage
+  homepage: https://fliqr.ai
 ---
 
 # comment-mining

@@ -7,6 +7,12 @@ description: >-
   new followers stay. Use when the creator says "giveaway", "contest", "win a", "collab giveaway",
   "brand giveaway", "how do I run a giveaway", or "giveaway rules". Works offline, or with the Fliqr AI connector for live Instagram data.
 argument-hint: "[prize] [solo or with a brand/creator] [goal: followers / leads / launch buzz]"
+license: MIT
+metadata:
+  author: Fliqr AI
+  version: "1.3.0"
+  category: convert
+  homepage: https://fliqr.ai
 ---
 
 # giveaway

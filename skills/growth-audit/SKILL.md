@@ -6,9 +6,15 @@ description: >-
   hook-vs-profile-vs-topic diagnosis, funnel performance, and a "do more / stop / test" plan with stated
   confidence. Reads live insights through the Fliqr AI
   connector, or works from pasted insights and screenshots. Use when the creator says "what's working",
-  "audit my account", "why did this flop", "why is my reach down", "read my analytics", "monthly report",
+  "audit my account", "why did this flop", "why is my reach down", "read my analytics", "monthly review",
   "what should I do more of", or "how are my automations doing".
 argument-hint: "[period: 7d / 30d / 90d] [@account]"
+license: MIT
+metadata:
+  author: Fliqr AI
+  version: "1.3.0"
+  category: analytics
+  homepage: https://fliqr.ai
 ---
 
 # growth-audit

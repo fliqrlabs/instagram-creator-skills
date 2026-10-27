@@ -8,6 +8,12 @@ description: >-
   "humanize", "check my caption", "proofread this", "is this ready to post", and before any other skill
   in this pack hands over final copy.
 argument-hint: "[paste the text] [caption / hook / script / dm / bio]"
+license: MIT
+metadata:
+  author: Fliqr AI
+  version: "1.3.0"
+  category: writing
+  homepage: https://fliqr.ai
 ---
 
 # polish

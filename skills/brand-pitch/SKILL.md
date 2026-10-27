@@ -7,6 +7,12 @@ description: >-
   can track. Use when the creator says "pitch a brand", "media kit", "rate card", "how much should I
   charge", "collab with @x", "brand reached out", "UGC pitch", or "sponsorship". Works offline, or with the Fliqr AI connector for live Instagram data.
 argument-hint: "[brand or creator name + what you'd make for them]"
+license: MIT
+metadata:
+  author: Fliqr AI
+  version: "1.3.0"
+  category: monetize
+  homepage: https://fliqr.ai
 ---
 
 # brand-pitch

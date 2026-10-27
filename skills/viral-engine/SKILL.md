@@ -8,6 +8,12 @@ description: >-
   viral post", "do everything", "full post from this idea", "I want leads from Instagram", "what should
   I post today and set it up", or invokes the engine. Works offline, or with the Fliqr AI connector for live Instagram data.
 argument-hint: "[idea, or leave empty to find one from your data] [reel / carousel]"
+license: MIT
+metadata:
+  author: Fliqr AI
+  version: "1.3.0"
+  category: workflow
+  homepage: https://fliqr.ai
 ---
 
 # viral-engine

@@ -8,6 +8,12 @@ description: >-
   from pasted insights. Use when the user says "client report", "monthly report", "weekly report",
   "report for my client", "agency report", "performance summary", or "what do I tell the client".
 argument-hint: "[@client account or 'all accounts'] [7d / 30d / custom dates] [agency name]"
+license: MIT
+metadata:
+  author: Fliqr AI
+  version: "1.3.0"
+  category: analytics
+  homepage: https://fliqr.ai
 ---
 
 # client-report

@@ -7,6 +7,12 @@ description: >-
   of content", "content pillars", "posting schedule", "launch plan", or "I'm inconsistent". With the
   Fliqr AI connector it plans around the creator's actual winners and comment demand.
 argument-hint: "[week / month] [goal: growth / leads / launch] [posts per week]"
+license: MIT
+metadata:
+  author: Fliqr AI
+  version: "1.3.0"
+  category: grow
+  homepage: https://fliqr.ai
 ---
 
 # content-plan

@@ -7,6 +7,12 @@ description: >-
   "update my profile", "you don't sound like me", or when any skill finds no profile. With the Fliqr AI
   connector it reads the creator's real bio and last 30 posts to draft the profile automatically.
 argument-hint: "[@handle, or paste 3 of your best captions/transcripts]"
+license: MIT
+metadata:
+  author: Fliqr AI
+  version: "1.3.0"
+  category: setup
+  homepage: https://fliqr.ai
 ---
 
 # creator-brain

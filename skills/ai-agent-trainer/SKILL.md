@@ -8,6 +8,12 @@ description: >-
   Use when the creator says "set up my AI agent", "AI replies", "train the bot", "my AI sounds robotic",
   "the AI said something wrong", "auto reply to questions", or "AI fallback prompt".
 argument-hint: "[what you sell] [paste FAQs, website text, or past DM answers]"
+license: MIT
+metadata:
+  author: Fliqr AI
+  version: "1.3.0"
+  category: convert
+  homepage: https://fliqr.ai
 ---
 
 # ai-agent-trainer

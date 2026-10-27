@@ -6,6 +6,12 @@ description: >-
   4:5 slides. Use when the creator says "carousel", "slides", "swipe post", "turn this into a carousel",
   "thread to carousel", "educational post", or wants a post built to be saved.
 argument-hint: "[topic, notes, or a thread/blog to convert] [number of slides]"
+license: MIT
+metadata:
+  author: Fliqr AI
+  version: "1.3.0"
+  category: create
+  homepage: https://fliqr.ai
 ---
 
 # carousel

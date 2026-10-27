@@ -7,6 +7,12 @@ description: >-
   on my story", "story sequence", "sell on stories", "launch on stories", "poll idea", or "story reply
   automation".
 argument-hint: "[what you want stories to do today: warm up / sell / launch / collect questions]"
+license: MIT
+metadata:
+  author: Fliqr AI
+  version: "1.3.0"
+  category: convert
+  homepage: https://fliqr.ai
 ---
 
 # story-funnel

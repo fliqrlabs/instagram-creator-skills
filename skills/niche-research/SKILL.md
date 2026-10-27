@@ -8,6 +8,12 @@ description: >-
   in my niche", "find viral reels", "research my niche", "build me a swipe file", "what are others
   posting", "reverse engineer what's working", or has run out of evidence for what to make next.
 argument-hint: "[niche] [6-12 accounts, or let me propose them] [your follower count]"
+license: MIT
+metadata:
+  author: Fliqr AI
+  version: "1.3.0"
+  category: research
+  homepage: https://fliqr.ai
 ---
 
 # niche-research

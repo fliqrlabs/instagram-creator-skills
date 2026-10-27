@@ -7,6 +7,12 @@ description: >-
   this", "why did this go viral", "break down this reel", "make my version of this", "this trend in my
   niche", "steal this format", or shares someone else's reel.
 argument-hint: "[reel link + transcript/description, or paste what happens second by second]"
+license: MIT
+metadata:
+  author: Fliqr AI
+  version: "1.3.0"
+  category: create
+  homepage: https://fliqr.ai
 ---
 
 # trend-remix

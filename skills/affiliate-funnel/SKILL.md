@@ -7,6 +7,12 @@ description: >-
   what earns. Use when the creator says "affiliate", "Amazon links", "product links", "discount code",
   "what I use", "outfit links", "shop my look", "link to products", or "earn from recommendations". Works offline, or with the Fliqr AI connector for live Instagram data.
 argument-hint: "[products or category] [affiliate programmes you're in]"
+license: MIT
+metadata:
+  author: Fliqr AI
+  version: "1.3.0"
+  category: convert
+  homepage: https://fliqr.ai
 ---
 
 # affiliate-funnel

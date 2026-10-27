@@ -9,6 +9,12 @@ description: >-
   blowing up and I can't reply to everyone", or "turn comments into leads". Without the connector it
   writes the full funnel copy for the creator to paste into their dashboard.
 argument-hint: "[post link or 'my latest reel'] [what the keyword should deliver]"
+license: MIT
+metadata:
+  author: Fliqr AI
+  version: "1.3.0"
+  category: convert
+  homepage: https://fliqr.ai
 ---
 
 # comment-to-dm

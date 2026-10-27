@@ -7,6 +7,12 @@ description: >-
   creator says "going live", "plan my live", "live session", "Q&A live", "launch live", "live webinar
   on Instagram", "live selling", or "how do I sell on a live".
 argument-hint: "[topic of the live] [date/time] [what you want people to get or buy]"
+license: MIT
+metadata:
+  author: Fliqr AI
+  version: "1.3.0"
+  category: convert
+  homepage: https://fliqr.ai
 ---
 
 # live-funnel

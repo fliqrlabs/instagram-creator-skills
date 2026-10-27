@@ -8,6 +8,12 @@ description: >-
   my comments", "what do I say to this comment", "my post is blowing up, help me reply", "first hour
   replies", "handle this hate comment", or "too many comments to answer".
 argument-hint: "[post link / 'latest post'] or paste the comments"
+license: MIT
+metadata:
+  author: Fliqr AI
+  version: "1.3.0"
+  category: engage
+  homepage: https://fliqr.ai
 ---
 
 # comment-replies

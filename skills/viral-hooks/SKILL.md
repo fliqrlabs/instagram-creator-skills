@@ -7,6 +7,12 @@ description: >-
   "make this more viral", "my reels get no views", "rewrite my opening", or pastes a topic and wants
   options to test.
 argument-hint: "[topic or idea] [goal: send / save / comment / follow / lead]"
+license: MIT
+metadata:
+  author: Fliqr AI
+  version: "1.3.0"
+  category: create
+  homepage: https://fliqr.ai
 ---
 
 # viral-hooks

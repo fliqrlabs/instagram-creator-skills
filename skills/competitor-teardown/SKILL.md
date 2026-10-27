@@ -7,6 +7,12 @@ description: >-
   the creator says "analyse @x", "competitor analysis", "why is @x growing", "what is @x doing right",
   "spy on", "benchmark me against", or "find gaps in my niche". Works offline, or with the Fliqr AI connector for live Instagram data.
 argument-hint: "[@competitor] [paste their last 15-30 posts: caption first line + views/likes]"
+license: MIT
+metadata:
+  author: Fliqr AI
+  version: "1.3.0"
+  category: research
+  homepage: https://fliqr.ai
 ---
 
 # competitor-teardown

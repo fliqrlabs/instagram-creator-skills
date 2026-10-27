@@ -8,6 +8,12 @@ description: >-
   something to give away in DMs", "comment X to get Y but I don't have Y yet", or before any
   comment-to-dm funnel that has nothing to deliver.
 argument-hint: "[topic] [who it's for] [the paid offer it should lead to]"
+license: MIT
+metadata:
+  author: Fliqr AI
+  version: "1.3.0"
+  category: convert
+  homepage: https://fliqr.ai
 ---
 
 # lead-magnet

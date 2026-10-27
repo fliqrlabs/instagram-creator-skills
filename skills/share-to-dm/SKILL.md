@@ -7,6 +7,12 @@ description: >-
   DM", "get people to share my post", "send this reel to me", "forward to DM campaign", or wants a
   campaign beyond comment keywords. Works offline, or with the Fliqr AI connector for live Instagram data.
 argument-hint: "[what people get when they share] [the post or idea]"
+license: MIT
+metadata:
+  author: Fliqr AI
+  version: "1.3.0"
+  category: convert
+  homepage: https://fliqr.ai
 ---
 
 # share-to-dm

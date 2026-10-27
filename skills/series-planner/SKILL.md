@@ -5,8 +5,14 @@ description: >-
   repeatable structure, the cover template, the first 10 episodes with hooks, the cadence, and a series
   keyword that DMs every new episode or the full archive. Use when the creator says "content series",
   "recurring format", "part 2", "daily series", "30 days of", "weekly show", "make people follow me",
-  "I'm inconsistent", or "what format should I own".
+  or "what format should I own".
 argument-hint: "[niche/pillar] [how often you can post it]"
+license: MIT
+metadata:
+  author: Fliqr AI
+  version: "1.3.0"
+  category: create
+  homepage: https://fliqr.ai
 ---
 
 # series-planner
